@@ -23,10 +23,10 @@ IndicPiper has 4 main functions:\
   `countHabitats()`\
   `prepIndicPiper()`\
   `runIndicPiper()`\
-  `checkIndicPiper()`\
+  `checkIndicPiper()`
 
 1. Use `countHabitats()` to import the provided metadata table and count number of samples by habitat. This will help you decide which habitats you can use and which ones you want to test. The arguments are:\
-  meta: the metadata file path, default = Sandpiper_Metadata_Filt_n358209.txt\
+  meta: the metadata file path, default = Sandpiper_Metadata_Filt_n358209.txt
 
 2. Use the `prepIndicPiper()` function to filter the metadata table and genus relative abundance table to your habitats of interest and also combine certain habitats if you want. The arguments are:\
    habitat_list: a vector of habitat names.\
@@ -34,7 +34,7 @@ IndicPiper has 4 main functions:\
    combine_freshwater: TRUE/FALSE, default = TRUE\
    combine_glacier_ice: TRUE/FALSE, default = TRUE\
    combine_mammalian_gut: TRUE/FALSE, default = TRUE\
-   combine_saliva_oral: TRUE/FALSE, default = TRUE\
+   combine_saliva_oral: TRUE/FALSE, default = TRUE
    
 3. Use the `runIndicPiper()` function to perform the random subsetting, multipatt analysis, and merging and filtering of multipatt output tables. This builds and output table with genera and their indicator habitats, as well as information about the strength of the association The arguments are:\
    meta: the metadata table, output from `prepIndicPiper()`, default = "myMetadataTable.csv.gz",\
@@ -45,15 +45,15 @@ IndicPiper has 4 main functions:\
    run_cut: cutoff for filtering multipatt output. the percent of runs that a given genera is an indicator or the same habitat. default = 100\
    p_cut: cutoff for filtering multipatt output. the multipatt mean p-value. default = 0.01\
    IndVal_cut: cutoff for filtering multipatt output. the multipatt mean IndVal. default = 0.5\
-   seed: seed for reproducibility. default = 1\
+   seed: seed for reproducibility. default = 1
 
 4. Use the `checkIndicPiper()` function to plot the summed abundances of the indicator taxa. The arguments are:\
    meta: a metadata table from one of your runs (e.g., made with `runIndicPiper()`). default = "meta_test.csv"\
    genus: a genus relative abundance table from one of your runs (e.g., made with `runIndicPiper()`). default = "genus_test.csv"\
-   ind: an IndicPiper database (e.g., made with `runIndicPiper()`). default = "genus_habitat_indicators_custom.csv"\
+   ind: an IndicPiper database (e.g., made with `runIndicPiper()`). default = "genus_habitat_indicators_custom.csv"
 
 ## Resources
-We recommend running IndicPiper on a server or supercomputer due to the size of the databases and the heavy computation needed to run all of the iterations of multipatt on the large input tables. IndicPiper was developed on a server with 250 Gb RAM and 32 cores. `countHabitats` took 1 minute. `prepIndicPiper` took 24 minutes. `runIndicPiper` took 7 hours. `checkIndicPiper` took 3 minutes.
+We recommend running IndicPiper on a server or supercomputer due to the size of the databases and the heavy computation needed to run all of the iterations of multipatt on the large input tables. IndicPiper was developed on a server with 250 Gb RAM and 32 cores. `countHabitats` took 1 minute. `prepIndicPiper` took 24 minutes. `runIndicPiper` took 7 hours for 100 runs or 15 minutes for 5 runs (testing). `checkIndicPiper` took 3 minutes.
 
 ## Reference
 IndicPiper will be described in a forthcoming publication.
