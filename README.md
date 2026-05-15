@@ -11,13 +11,14 @@ There is also a function to generate a diagnostic plot so you can see to what re
 To run IndicPiper, you just need R and few libraries. IndicPiper was developed with R 4.5.2.
 Required libraries are tidyr, dplyr, tibble, permute, indicspecies, ggplot2, data.table, FSA, and rlang. These can be installed with:
 `install.packages(c("tidyr", "dplyr", "tibble", "permute", "indicspecies", "ggplot2", "data.table", "FSA", "rlang")`
+You also need to the two starting input files, which can be downloaded here: https://doi.org/10.6084/m9.figshare.32305302.
 
 ## Usage
 To use the provided database, generate GTDB taxonomic abundance profiles from metagenomes or 16S rRNA gene sequencing and then exact match by genus name to assign genera as "non-indicator" or as indicators of the habitats according to the IndicPiper output. Then you can just aggregate by indicator taxa and plot relative abundances as you would other taxa or guilds.
  
 You can also generate your own database (for example, if you need a habitat not in the 13 provided).
 
-To do a custom run of IndicPiper, download the two input files from FigShare.
+To do a custom run of IndicPiper, download the two input files from FigShare (https://doi.org/10.6084/m9.figshare.32305302).
 Then load all of the functions with source(IndicPiper.R). You could then use the functions interactively on RStudio Server, or make an .R script in which you set the working directory, run source(IndicPiper.R), and then run one of the functions, providing your arguments. Such a file could then be run in the terminal with Rscript YourFile.R. For examples of each function, I have provided 4 "Test" scripts, which demonstrate this.
 IndicPiper has 4 main functions:\
   `countHabitats()`\
