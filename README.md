@@ -101,8 +101,8 @@ IndicPiper has 4 main functions:\
 We recommend running IndicPiper on a server or supercomputer due to the size of the databases and the heavy computation needed to run all of the iterations of multipatt on the large input tables. IndicPiper was developed on a server with 250 Gb RAM and 32 cores. `countHabitats` took 1 minute. `prepIndicPiper` took 24 minutes. `runIndicPiper` took 7 hours for 100 runs or 15 minutes for 5 runs (testing). `checkIndicPiper` took 30 seconds.
 
 ## References
-IndicPiper will be described in a forthcoming publication.
-If you need to cite IndicPiper before the paper is out, please cite this GitHub repository.
-Please also mention that IndicPiper relies on the Sandpiper database and cite the Sandpiper/SingleM paper too.\
+IndicPiper will be described in a forthcoming publication. If you need to cite IndicPiper before the paper is out, please cite this GitHub repository. Please also mention that IndicPiper relies on the Sandpiper database and cite the Sandpiper/SingleM paper too (Woodcroft et al. 2025). We also suggest citing the paper associated with the multipatt() R function used by IndicPiper (De Cáceres and Legendre, 2009).\
+\
+Cáceres, M.D. and Legendre, P. (2009), Associations between species and groups of sites: indices and statistical inference. Ecology, 90: 3566-3574. https://doi.org/10.1890/08-1823.1|
 \
 Woodcroft, B.J., Aroney, S.T.N., Zhao, R. et al. Comprehensive taxonomic identification of microbial species in metagenomic data using SingleM and Sandpiper. Nat Biotechnol (2025). https://doi.org/10.1038/s41587-025-02738-1
