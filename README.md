@@ -9,8 +9,8 @@ There is also a function to generate a diagnostic plot so you can see to what re
 
 ## Installation
 To run IndicPiper, you just need R and few libraries. IndicPiper was developed with R 4.5.2.
-Required libraries are tidyr, dplyr, tibble, permute, indicspecies, ggplot2, data.table, and FSA. These can be installed with:
-`install.packages(c("tidyr", "dplyr", "tibble", "permute", "indicspecies", "ggplot2", "data.table", "FSA")`
+Required libraries are tidyr, dplyr, tibble, permute, indicspecies, ggplot2, data.table, FSA, and rlang. These can be installed with:
+`install.packages(c("tidyr", "dplyr", "tibble", "permute", "indicspecies", "ggplot2", "data.table", "FSA", "rlang")`
 
 ## Usage
 To use the provided database, generate GTDB taxonomic abundance profiles from metagenomes or 16S rRNA gene sequencing and then exact match by genus name to assign genera as "non-indicator" or as indicators of the habitats according to the IndicPiper output. Then you can just aggregate by indicator taxa and plot relative abundances as you would other taxa or guilds.
