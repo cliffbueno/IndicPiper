@@ -100,7 +100,7 @@ IndicPiper has 4 main functions:\
 ## Resources
 We recommend running IndicPiper on a server or supercomputer due to the size of the databases and the heavy computation needed to run all of the iterations of multipatt on the large input tables. IndicPiper was developed on a server with 250 Gb RAM and 32 cores. `countHabitats` took 1 minute. `prepIndicPiper` took 24 minutes. `runIndicPiper` took 7 hours for 100 runs or 15 minutes for 5 runs (testing). `checkIndicPiper` took 30 seconds.
 
-## Reference
+## References
 IndicPiper will be described in a forthcoming publication.
 If you need to cite IndicPiper before the paper is out, please cite this GitHub repository.
 Please also mention that IndicPiper relies on the Sandpiper database and cite the Sandpiper/SingleM paper too.\
