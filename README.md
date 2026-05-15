@@ -25,27 +25,64 @@ IndicPiper has 4 main functions:\
   `runIndicPiper()`\
   `checkIndicPiper()`
 
-1. Use `countHabitats()` to import the provided metadata table and count number of samples by habitat. This will help you decide which habitats you can use and which ones you want to test. The arguments are:\
-  meta: the metadata file path, default = Sandpiper_Metadata_Filt_n358209.txt
+1. Use `countHabitats()` to import the provided metadata table and count number of samples by habitat. This will help you decide which habitats you can use and which ones you want to test.
 
-2. Use the `prepIndicPiper()` function to filter the metadata table and genus relative abundance table to your habitats of interest and also combine certain habitats if you want. The arguments are:\
-   habitat_list: a vector of habitat names.\
-   combine_soil_rhizo: TRUE/FALSE, default = TRUE\
-   combine_freshwater: TRUE/FALSE, default = TRUE\
-   combine_glacier_ice: TRUE/FALSE, default = TRUE\
-   combine_mammalian_gut: TRUE/FALSE, default = TRUE\
-   combine_saliva_oral: TRUE/FALSE, default = TRUE
-   
-3. Use the `runIndicPiper()` function to perform the random subsetting, multipatt analysis, and merging and filtering of multipatt output tables. This builds and output table with genera and their indicator habitats, as well as information about the strength of the association The arguments are:\
-   meta: the metadata table, output from `prepIndicPiper()`, default = "myMetadataTable.csv.gz",\
-   genus: the genus relative abundance table, output from `prepIndicPiper()`, default = "myGenusTable.csv.gz",\
-   n_multipatt_perm: the number of iterations within the multipatt function, default = 100\
-   n_runs: the number of times you want to subsample habitats and run multipatt, default = 100\
-   n_per_habitat: the sample size per habitat per run. samples are randomly selected. must be less than the lowest number of samples in any one of your habitat_list. Check the habitat counts at the end of `prepIndicPiper()`. default = 215\
-   run_cut: cutoff for filtering multipatt output. the percent of runs that a given genera is an indicator or the same habitat. default = 100\
-   p_cut: cutoff for filtering multipatt output. the multipatt mean p-value. default = 0.01\
-   IndVal_cut: cutoff for filtering multipatt output. the multipatt mean IndVal. default = 0.5\
-   seed: seed for reproducibility. default = 1
+   Arguments:
+
+   - `meta`: the metadata file path.  
+     Default = `"Sandpiper_Metadata_Filt_n358209.txt"`
+
+2. Use the `prepIndicPiper()` function to filter the metadata table and genus relative abundance table to your habitats of interest and optionally combine certain habitats.
+
+   Arguments:
+
+   - `habitat_list`: a vector of habitat names.
+
+   - `combine_soil_rhizo`: TRUE/FALSE.  
+     Default = `TRUE`
+
+   - `combine_freshwater`: TRUE/FALSE.  
+     Default = `TRUE`
+
+   - `combine_glacier_ice`: TRUE/FALSE.  
+     Default = `TRUE`
+
+   - `combine_mammalian_gut`: TRUE/FALSE.  
+     Default = `TRUE`
+
+   - `combine_saliva_oral`: TRUE/FALSE.  
+     Default = `TRUE`
+
+3. Use the `runIndicPiper()` function to perform the random subsetting, multipatt analysis, and merging/filtering of multipatt output tables. This builds an output table with genera and their indicator habitats, as well as information about the strength of the association.
+
+   Arguments:
+
+   - `meta`: the metadata table output from `prepIndicPiper()`.  
+     Default = `"myMetadataTable.csv.gz"`
+
+   - `genus`: the genus relative abundance table output from `prepIndicPiper()`.  
+     Default = `"myGenusTable.csv.gz"`
+
+   - `n_multipatt_perm`: the number of iterations within the multipatt function.  
+     Default = `100`
+
+   - `n_runs`: the number of times you want to subsample habitats and run multipatt.  
+     Default = `100`
+
+   - `n_per_habitat`: the sample size per habitat per run. Samples are randomly selected. Must be less than the lowest number of samples in any one habitat from your `habitat_list`. Check the habitat counts at the end of `prepIndicPiper()`.  
+     Default = `215`
+
+   - `run_cut`: cutoff for filtering multipatt output. The percent of runs that a given genus is an indicator of the same habitat.  
+     Default = `100`
+
+   - `p_cut`: cutoff for filtering multipatt output. The multipatt mean p-value.  
+     Default = `0.01`
+
+   - `IndVal_cut`: cutoff for filtering multipatt output. The multipatt mean IndVal.  
+     Default = `0.5`
+
+   - `seed`: seed for reproducibility.  
+     Default = `1`
 
    4. Use the `checkIndicPiper()` function to plot the summed abundances of the indicator taxa.
 
