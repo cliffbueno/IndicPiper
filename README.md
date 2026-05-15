@@ -84,7 +84,7 @@ IndicPiper has 4 main functions:\
    - `seed`: seed for reproducibility.  
      Default = `1`
 
-   4. Use the `checkIndicPiper()` function to plot the summed abundances of the indicator taxa.
+4. Use the `checkIndicPiper()` function to plot the summed abundances of the indicator taxa.
 
    Arguments:
 
