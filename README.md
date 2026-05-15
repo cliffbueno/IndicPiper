@@ -103,6 +103,6 @@ We recommend running IndicPiper on a server or supercomputer due to the size of 
 ## References
 IndicPiper will be described in a forthcoming publication. If you need to cite IndicPiper before the paper is out, please cite this GitHub repository. Please also mention that IndicPiper relies on the Sandpiper database and cite the Sandpiper/SingleM paper too (Woodcroft et al. 2025). We also suggest citing the paper associated with the multipatt() R function used by IndicPiper (De Cáceres and Legendre, 2009).\
 \
-De Cáceres, M. and Legendre, P. (2009), Associations between species and groups of sites: indices and statistical inference. Ecology, 90: 3566-3574. https://doi.org/10.1890/08-1823.1|
+De Cáceres, M. and Legendre, P. (2009), Associations between species and groups of sites: indices and statistical inference. Ecology, 90: 3566-3574. https://doi.org/10.1890/08-1823.1\
 \
 Woodcroft, B.J., Aroney, S.T.N., Zhao, R. et al. Comprehensive taxonomic identification of microbial species in metagenomic data using SingleM and Sandpiper. Nat Biotechnol (2025). https://doi.org/10.1038/s41587-025-02738-1
