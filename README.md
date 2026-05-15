@@ -47,10 +47,18 @@ IndicPiper has 4 main functions:\
    IndVal_cut: cutoff for filtering multipatt output. the multipatt mean IndVal. default = 0.5\
    seed: seed for reproducibility. default = 1
 
-4. Use the `checkIndicPiper()` function to plot the summed abundances of the indicator taxa. The arguments are:\
-   meta: a metadata table from one of your runs (e.g., made with `runIndicPiper()`). default = "meta_test.csv"\
-   genus: a genus relative abundance table from one of your runs (e.g., made with `runIndicPiper()`). default = "genus_test.csv"\
-   ind: an IndicPiper database (e.g., made with `runIndicPiper()`). default = "genus_habitat_indicators_custom.csv"
+   4. Use the `checkIndicPiper()` function to plot the summed abundances of the indicator taxa.
+
+   Arguments:
+
+   - `meta`: a metadata table from one of your runs (e.g., made with `runIndicPiper()`).  
+     Default = `"meta_test.csv"`
+
+   - `genus`: a genus relative abundance table from one of your runs (e.g., made with `runIndicPiper()`).  
+     Default = `"genus_test.csv"`
+
+   - `ind`: an IndicPiper database (e.g., made with `runIndicPiper()`).  
+     Default = `"genus_habitat_indicators_custom.csv"`
 
 ## Resources
 We recommend running IndicPiper on a server or supercomputer due to the size of the databases and the heavy computation needed to run all of the iterations of multipatt on the large input tables. IndicPiper was developed on a server with 250 Gb RAM and 32 cores. `countHabitats` took 1 minute. `prepIndicPiper` took 24 minutes. `runIndicPiper` took 7 hours for 100 runs or 15 minutes for 5 runs (testing). `checkIndicPiper` took 30 seconds.
