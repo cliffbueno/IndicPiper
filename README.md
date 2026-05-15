@@ -53,7 +53,7 @@ IndicPiper has 4 main functions:\
    ind: an IndicPiper database (e.g., made with `runIndicPiper()`). default = "genus_habitat_indicators_custom.csv"
 
 ## Resources
-We recommend running IndicPiper on a server or supercomputer due to the size of the databases and the heavy computation needed to run all of the iterations of multipatt on the large input tables. IndicPiper was developed on a server with 250 Gb RAM and 32 cores. `countHabitats` took 1 minute. `prepIndicPiper` took 24 minutes. `runIndicPiper` took 7 hours for 100 runs or 15 minutes for 5 runs (testing). `checkIndicPiper` took 3 minutes.
+We recommend running IndicPiper on a server or supercomputer due to the size of the databases and the heavy computation needed to run all of the iterations of multipatt on the large input tables. IndicPiper was developed on a server with 250 Gb RAM and 32 cores. `countHabitats` took 1 minute. `prepIndicPiper` took 24 minutes. `runIndicPiper` took 7 hours for 100 runs or 15 minutes for 5 runs (testing). `checkIndicPiper` took 30 seconds.
 
 ## Reference
 IndicPiper will be described in a forthcoming publication.
