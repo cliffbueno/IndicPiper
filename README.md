@@ -103,4 +103,5 @@ We recommend running IndicPiper on a server or supercomputer due to the size of 
 ## Reference
 IndicPiper will be described in a forthcoming publication.
 If you need to cite IndicPiper before the paper is out, please cite this GitHub repository.
-Please also mention that IndicPiper relies the Sandpiper database and cite the Sandpiper paper too. 
+Please also mention that IndicPiper relies on the Sandpiper database and cite the Sandpiper/SingleM paper too.\
+Woodcroft, B.J., Aroney, S.T.N., Zhao, R. et al. Comprehensive taxonomic identification of microbial species in metagenomic data using SingleM and Sandpiper. Nat Biotechnol (2025). https://doi.org/10.1038/s41587-025-02738-1
