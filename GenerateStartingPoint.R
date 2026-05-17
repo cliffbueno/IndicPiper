@@ -1,5 +1,5 @@
 # This script shows how the starting point for IndicPiper was generated
-# Take the Sandpiper database and filter it down to 483k samples
+# Take the Sandpiper database and filter it down to 358209 samples
 # The full Sandpiper database metadata and singleM profiles were downloaded from Zenodo
 # Used Sandpiper v1.1.10 which screened 707470 metagenomes
 # The filtering steps were as follows:
@@ -11,7 +11,7 @@
 # 6. misclassified freshwater water/sediment
 # 7. misclassified marine water/sediment
 # 8. habitats with at least 50 samples
-# 9. more vague samples (e.g., "gut" (doesn't say which gut!), "canine" (doesn't say which part!))
+# 9. more vague samples (e.g., "gut" (doesn't say which gut!))
 
 setwd("~/IndicPiper/")
 library(dplyr)
@@ -21,7 +21,7 @@ library(tibble)
 
 freshwaterfilt <- readRDS("freshwaterfilt.rds") # misclassified freshwater water/sediment
 marinefilt <- readRDS("marinefilt.rds") # misclassified marine water/sediment
-meta_per_acc <- read.csv("sandpiper1.1.10.per_acc_summary.csv.gz") %>% # full database, n  = 712661
+meta_per_acc <- read.csv("sandpiper1.1.10.per_acc_summary.csv.gz") %>% # full database from Zenodo, n  = 712661
   filter(grepl("metagenome", organism)) %>% # keep metagenomes, n = 647132
   filter(organism != "metagenome") %>% # remove vague samples, n = 576660
   mutate(organism = gsub(" metagenome", "", organism)) %>% # now remove the metagenome label
