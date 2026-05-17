@@ -1,11 +1,11 @@
 # IndicPiper
 IndicPiper: microbial indicator taxa analysis using Sandpiper and multipatt
 
-This repo contains the IndicPiper database made by Cliff Bueno de Mesquita based on 13 habitats, using 100 runs, 215 random samples per habitat per run, and cutoffs of indicator in 100% of runs, mean p-value < 0.01, and mean IndVal > 0.5. For many cases, you can just use this database for your projects. Whether you have metagenomes or 16S sequencing, just use GTDB taxonomy and perform exact name matching at the genus level. Then, for example, you can aggregate relative abundances by indicator habitat. 
+This repo contains the IndicPiper database made by Cliff Bueno de Mesquita based on 13 habitats, using 100 runs, 215 random samples per habitat per run, and cutoffs of indicator in 100% of runs, mean p-value < 0.01, and mean IndVal > 0.5. For many cases, you can just use this database for your projects. Whether you have metagenomes or 16S sequencing, just use GTDB taxonomy and perform exact name matching at the genus level. Then, for example, you can aggregate relative abundances by indicator habitat, and perform statistics and plotting. 
 
-There are also functions (in IndicPiper.R) to generate your own database based on habitats of interest or different parameters. The input metadata and taxaonomic profile are available on FigShare, and these were generated with GenerateStartingPoint.R. You can then supply the function with your habitats of interest and cutoffs you want to use. We recommend not going any less stringent than the cutoffs we used. We also recommend focusing on habitats that have good sample sizes (ideally in the hundreds of samples). 
+There are also functions (in IndicPiper.R) to generate your own database based on habitats of interest or different parameters. The input metadata and taxaonomic profile are available on FigShare, and these were generated with GenerateStartingPoint.R. You can then supply the function with your habitats of interest and cutoffs you want to use. We recommend not going any less stringent than the cutoffs we used. We also recommend focusing on habitats that have good sample sizes (ideally in the hundreds of samples). We have removed habitats with < 50 samples.  
 
-There is also a function to generate a diagnostic plot so you can see to what relative abundance the indicator taxa sum to in the target habitat as well as how much they spillover into other habitats.
+There is also a function to generate a diagnostic plot (`checkIndicPiper()`) so you can see to what relative abundance the indicator taxa sum to in the target habitat as well as how much they spill over into other habitats.
 
 ## Installation
 To run IndicPiper, you just need R and few libraries. IndicPiper was developed with R 4.5.2. Required libraries are tidyr, dplyr, tibble, permute, indicspecies, ggplot2, data.table, FSA, and rlang. These can be installed with:\
@@ -101,8 +101,10 @@ IndicPiper has 4 main functions:\
 We recommend running IndicPiper on a server or supercomputer due to the size of the databases and the heavy computation needed to run all of the iterations of multipatt on the large input tables. IndicPiper was developed on a server with 250 Gb RAM and 32 cores. `countHabitats` took 1 minute. `prepIndicPiper` took 24 minutes. `runIndicPiper` took 7 hours for 100 runs or 15 minutes for 5 runs (testing). `checkIndicPiper` took 30 seconds.
 
 ## References
-IndicPiper will be described in a forthcoming publication. If you need to cite IndicPiper before the paper is out, please cite this GitHub repository. Please also mention that IndicPiper relies on the Sandpiper database and cite the Sandpiper/SingleM paper too (Woodcroft et al. 2025). We also suggest citing the paper associated with the `multipatt()` R function used by IndicPiper (De Cáceres and Legendre, 2009).
+IndicPiper will be described in a forthcoming publication. If you need to cite IndicPiper before the paper is out, please cite this GitHub repository. Please also mention that IndicPiper relies on the Sandpiper database and cite the Sandpiper/SingleM paper too (Woodcroft et al. 2025). We also suggest citing the paper associated with the `multipatt()` R function used by IndicPiper (De Cáceres and Legendre, 2009). Lastly, if you use `checkIndicPiper()`, it uses functions from Jonathan Leff's mctoolsr package (Leff, 2022).
 
 De Cáceres, M. and Legendre, P. (2009), Associations between species and groups of sites: indices and statistical inference. *Ecology*, 90: 3566–3574. https://doi.org/10.1890/08-1823.1
+
+Leff, J. 2022. mctoolsr: Microbial Community Data Analysis Tools. R package version 0.1.1.9. <https://github.com/leffj/mctoolsr>
 
 Woodcroft, B.J., Aroney, S.T.N., Zhao, R. *et al.* Comprehensive taxonomic identification of microbial species in metagenomic data using SingleM and Sandpiper. *Nat Biotechnol* (2025). https://doi.org/10.1038/s41587-025-02738-1
