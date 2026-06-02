@@ -8,8 +8,8 @@ There are also functions (in IndicPiper.R) to generate your own database based o
 There is also a function to generate a diagnostic plot (`checkIndicPiper()`) so you can see to what relative abundance the indicator taxa sum to in the target habitat as well as how much they spill over into other habitats.
 
 ## Installation
-To run IndicPiper, you just need R and few libraries. IndicPiper was developed with R 4.5.2. Required libraries are tidyr, dplyr, tibble, permute, indicspecies, ggplot2, data.table, FSA, and rlang. These can be installed with:\
-`install.packages(c("tidyr", "dplyr", "tibble", "permute", "indicspecies", "ggplot2", "data.table", "FSA", "rlang"))`.\
+To run IndicPiper, you just need R and few libraries. IndicPiper was developed with R 4.5.2. Required libraries are tidyr, dplyr, tibble, permute, indicspecies, ggplot2, data.table, FSA, rlang and R.utils. These can be installed with:\
+`install.packages(c("tidyr", "dplyr", "tibble", "permute", "indicspecies", "ggplot2", "data.table", "FSA", "rlang", "R.utils"))`.\
 You also need to the two starting input files, which can be downloaded here: https://doi.org/10.6084/m9.figshare.32305302.
 
 ## Usage
