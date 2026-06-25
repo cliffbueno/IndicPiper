@@ -1,11 +1,15 @@
 # IndicPiper Main Functions and Support Functions
 
-# First, download the 2 starting files from FigShare, and put them in your working directory
-# Sandpiper_Metadata_Filt_n358209.txt
-# Sandpiper_Genus_Filt_n358209.csv.gz
+# First, download the 2 starting files from Zenodo
+# Sandpiper_Metadata_Filt_n451568.txt
+# Sandpiper_Genus_Filt_n451568.csv.gz
+
+# Put them in your working directory
+
+
 
 #### countHabitats ####
-countHabitats <- function(meta = "Sandpiper_Metadata_Filt_n358209.txt") {
+countHabitats <- function(meta = "Sandpiper_Metadata_Filt_n451568.txt") {
   logtime("Starting countHabitats()")
   
   # Load libraries
@@ -46,8 +50,12 @@ prepIndicPiper <- function(habitat_list,
   logtime("Libraries loaded")
   
   # Load metadata
-  meta <- read.delim("Sandpiper_Metadata_Filt_n358209.txt", stringsAsFactors = FALSE)
+  meta <- read.delim("Sandpiper_Metadata_Filt_n451568.txt", stringsAsFactors = FALSE)
   logtime("Metadata table loaded")
+  
+  # Change marine to seawater
+  meta <- meta %>%
+    mutate(Habitat = ifelse(Habitat == "marine", "seawater", Habitat))
   
   # Print starting habitat counts
   habitat_counts <- meta %>%
@@ -59,7 +67,7 @@ prepIndicPiper <- function(habitat_list,
   logtime("Habitats counted")
   
   # Load genus table
-  genus <- fread("Sandpiper_Genus_Filt_n358209.csv.gz", showProgress = TRUE, nThread = 2)
+  genus <- fread("Sandpiper_Genus_Filt_n451568.csv.gz", showProgress = TRUE, nThread = 2)
   logtime("Raw genus table loaded")
   # Move taxonomy column to rownames
   rownames(genus) <- genus[[1]]
@@ -83,7 +91,7 @@ prepIndicPiper <- function(habitat_list,
   
   if (combine_freshwater) {
     meta$Habitat[
-      meta$Habitat %in% c("pond", "lake water", "riverine")
+      meta$Habitat %in% c("freshwater", "aquatic", "pond", "lake water", "riverine")
     ] <- "freshwater water"
     logtime("Freshwater habitats combined")
   }
@@ -170,7 +178,7 @@ runIndicPiper <- function(meta = "myMetadataTable.csv.gz",
                           genus = "myGenusTable.csv.gz",
                           n_multipatt_perm = 100, # number of iterations within the multipatt function
                           n_runs = 100, # number of times you want to subsample habitats and run multipatt
-                          n_per_habitat = 215, # sample size per habitat per run. samples randomly selected
+                          n_per_habitat = 250, # sample size per habitat per run. samples randomly selected
                           run_cut = 100, # multipatt mean % runs cutoff
                           p_cut = 0.01, # multipatt mean Pfdr cutoff
                           IndVal_cut = 0.5,  # multipatt mean IndVal cutoff
@@ -191,7 +199,7 @@ runIndicPiper <- function(meta = "myMetadataTable.csv.gz",
   # Import data produced by prepIndicPiper.R
   meta <- fread(meta, showProgress = TRUE, nThread = 2)
   n_habitats <- length(levels(as.factor(meta$Habitat)))
-  genus_table_t_start <- fread(genus, showProgress = TRUE, nThread = 2) %>%
+  genus_table_t_start <- fread(genus, showProgress = TRUE, nThread = 16) %>%
     column_to_rownames(var = "sampleID")
   if (sum(meta$sample != rownames(genus_table_t_start)) > 0) { 
     stop("Metadata table and genus table sample order do not match.") } 
@@ -199,7 +207,8 @@ runIndicPiper <- function(meta = "myMetadataTable.csv.gz",
   
   # Make subsets, given the n_runs and n_per_habitat you want
   subs <- make_subsamples(meta, n_runs = n_runs, n_per_habitat = n_per_habitat, seed = seed)
-  logtime("Subsets for multipatt made")
+  saveRDS(subs, "subs.rds")
+  logtime("Subsets for multipatt made and saved as subs.rds")
   
   # Run multipatt analysis given the n_multipatt_perm you want
   mp <- vector("list", n_runs)
@@ -295,7 +304,12 @@ runIndicPiper <- function(meta = "myMetadataTable.csv.gz",
 #### checkIndicPiper ####
 checkIndicPiper <- function(meta = "meta_test.csv",
                             genus = "genus_test.csv",
-                            ind = "genus_habitat_indicators_custom.csv") {
+                            ind = "genus_habitat_indicators_custom.csv",
+                            ouput = "IndicPiper_SummedAbund.pdf",
+                            ncol = 2,
+                            keep_unassigned = FALSE,
+                            keep_nonindicator = TRUE,
+                            custom_order = NULL) {
   logtime("Starting checkIndicPiper()")
   
   # Load libraries
@@ -373,7 +387,34 @@ checkIndicPiper <- function(meta = "meta_test.csv",
     left_join(., input$map_loaded, by = c("group_by" = "sampleID")) %>%
     mutate(match = ifelse(taxon == Habitat, "target", "off-target")) %>%
     mutate(taxon = gsub("unassigned", "genus unassigned", taxon))
+  
+  if (!keep_unassigned) {
+    plot_data <- plot_data %>%
+      dplyr::filter(taxon != "genus unassigned")
+    logtime("Genus unassigned removed from plot_data")
+  }
+  
+  if (!keep_nonindicator) {
+    plot_data <- plot_data %>%
+      dplyr::filter(taxon != "non-indicator")
+    logtime("Non-indicators removed from plot_data")
+  }
+  
+  if (!is.null(custom_order)) {
+    plot_data$taxon <- factor(plot_data$taxon, levels = custom_order)
+    plot_data$Habitat <- factor(plot_data$Habitat, levels = custom_order)
+    logtime("Re-ordered the habitats for plotting")
+  }
+  
   logtime("Finished preparing plotting data")
+  
+  # Print median and mean for target and non-target
+  info <- plot_data %>%
+    group_by(taxon, match) %>%
+    summarise(Mean = mean(mean_value),
+              Median = median(mean_value)) %>%
+    ungroup()
+  print(info, n = 100)
   
   # Plot
   g <- ggplot(plot_data, aes(Habitat, mean_value)) +
@@ -383,17 +424,17 @@ checkIndicPiper <- function(meta = "meta_test.csv",
     scale_colour_manual(values = c("black", "red")) +
     labs(x = NULL,
          y = "% abundance") +
-    facet_wrap(~ taxon) +
+    facet_wrap(~ taxon, ncol = ncol) +
     theme_bw() +
-    theme(axis.text.x = element_text(size = 10, angle = 90, hjust = 1, vjust = 0.5),
+    theme(axis.text.x = element_text(size = 10, angle = 45, hjust = 1),
           axis.text.y = element_text(size = 10),
           axis.title = element_text(size = 12),
           panel.grid.minor = element_blank(),
           legend.position = "none")
-  pdf("IndicPiper_SummedAbund.pdf", width = 8, height = 8)
+  pdf(output, width = 8, height = 8)
   print(g)
   dev.off()
-  logtime("Finished diagnostic plot (IndicPiper_SummedAbund.pdf). checkIndicPiper() complete")
+  logtime("Finished diagnostic plot. checkIndicPiper() complete")
 }
 
 
@@ -453,41 +494,90 @@ summarize_taxonomy = function(input, level, relative = TRUE,
     tax_sum
 }
 
-plot_taxa_bars = function(tax_table, metadata_map, type_header, num_taxa,
-                          data_only = FALSE) {
-  tax_table$taxon = row.names(tax_table)
-  tax_table_melted = reshape2::melt(tax_table, variable.name = 'Sample_ID',
-                                    id.vars = 'taxon')
-  group_by_levels = metadata_map[match(tax_table_melted$Sample_ID,
-                                       row.names(metadata_map)), type_header]
-  tax_table_melted$group_by = group_by_levels
-  mean_tax_vals = dplyr::summarise_(dplyr::group_by_(tax_table_melted,
-                                                     "group_by", "taxon"),
-                                    mean_value = ~ mean(value))
-  # get top taxa and convert other to 'other'
-  mean_tax_vals_sorted = mean_tax_vals[order(mean_tax_vals$mean_value,
-                                             decreasing = TRUE),]
-  top_taxa = unique(mean_tax_vals_sorted$taxon)[1:num_taxa]
-  mean_tax_vals_sorted$taxon[!mean_tax_vals_sorted$taxon %in% top_taxa] = 'Other'
-  to_plot = dplyr::summarise_(
-    dplyr::group_by_(mean_tax_vals_sorted, "group_by",
-                     "taxon"),
-    mean_value = ~ sum(mean_value)
+plot_taxa_bars <- function(tax_table, metadata_map, type_header, num_taxa,
+                           data_only = FALSE) {
+  
+  tax_table$taxon <- row.names(tax_table)
+  
+  tax_table_melted <- reshape2::melt(
+    tax_table,
+    variable.name = "Sample_ID",
+    id.vars = "taxon"
   )
-  # make it so 'Other' appears at bottom of key
-  o = c(unique(to_plot$taxon)[unique(to_plot$taxon) != 'Other'], 'Other')
-  to_plot$taxon = factor(x = to_plot$taxon, levels = o)
-  to_plot = to_plot[order(to_plot$group_by, as.numeric(to_plot$taxon), 
-                          decreasing = T), ]
-  if (data_only)
-    to_plot
-  else {
-    ggplot2::ggplot(to_plot, ggplot2::aes_string("group_by", "mean_value",
-                                                 fill = "taxon")) +
-      ggplot2::geom_bar(stat = 'identity') +
-      ggplot2::ylab('') + ggplot2::xlab('') +
-      ggplot2::theme(legend.title = ggplot2::element_blank())
+  
+  group_by_levels <- metadata_map[
+    match(tax_table_melted$Sample_ID, row.names(metadata_map)),
+    type_header
+  ]
+  
+  tax_table_melted$group_by <- group_by_levels
+  
+  mean_tax_vals <- tax_table_melted %>%
+    dplyr::group_by(group_by, taxon) %>%
+    dplyr::summarise(
+      mean_value = mean(value),
+      .groups = "drop"
+    )
+  
+  # get top taxa and convert others to "Other"
+  mean_tax_vals_sorted <- mean_tax_vals[
+    order(mean_tax_vals$mean_value, decreasing = TRUE),
+  ]
+  
+  top_taxa <- unique(mean_tax_vals_sorted$taxon)[1:num_taxa]
+  
+  mean_tax_vals_sorted$taxon[
+    !mean_tax_vals_sorted$taxon %in% top_taxa
+  ] <- "Other"
+  
+  to_plot <- mean_tax_vals_sorted %>%
+    dplyr::group_by(group_by, taxon) %>%
+    dplyr::summarise(
+      mean_value = sum(mean_value),
+      .groups = "drop"
+    )
+  
+  # make it so "Other" appears at bottom of key
+  o <- c(
+    unique(to_plot$taxon)[unique(to_plot$taxon) != "Other"],
+    "Other"
+  )
+  
+  to_plot$taxon <- factor(
+    x = to_plot$taxon,
+    levels = o
+  )
+  
+  to_plot <- to_plot[
+    order(
+      to_plot$group_by,
+      as.numeric(to_plot$taxon),
+      decreasing = TRUE
+    ),
+  ]
+  
+  if (data_only) {
+    
+    return(to_plot)
+    
+  } else {
+    
+    return(
+      ggplot2::ggplot(
+        to_plot,
+        ggplot2::aes(
+          x = group_by,
+          y = mean_value,
+          fill = taxon
+        )
+      ) +
+        ggplot2::geom_bar(stat = "identity") +
+        ggplot2::ylab("") +
+        ggplot2::xlab("") +
+        ggplot2::theme(
+          legend.title = ggplot2::element_blank()
+        )
+    )
   }
-  # plot
 }
 
