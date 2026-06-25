@@ -193,7 +193,6 @@ runIndicPiper <- function(meta = "myMetadataTable.csv.gz",
   suppressMessages(library(tibble))
   suppressMessages(library(data.table))
   suppressMessages(library(indicspecies))
-  suppressMessages(library(FSA))
   logtime("Libraries loaded")
   
   # Import data produced by prepIndicPiper.R
@@ -441,6 +440,13 @@ checkIndicPiper <- function(meta = "meta_test.csv",
 
 #### Support Functions ####
 # Support functions
+se <- function(x, na.rm = FALSE) {
+  if (na.rm) {
+    x <- x[!is.na(x)]
+  }
+  stats::sd(x) / sqrt(sum(!is.na(x)))
+}
+
 logtime <- function(msg) cat(sprintf("[%s] %s\n", format(Sys.time(), "%Y-%m-%d %H:%M:%S"), msg))
 
 make_subsamples <- function(df, n_runs = 100, n_per_habitat = 215, seed = 1){

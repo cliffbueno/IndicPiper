@@ -11,7 +11,6 @@ required_packages <- c(
   "tidyr",
   "permute",
   "indicspecies",
-  "FSA",
   "ggplot2",
   "rlang",
   "R.utils",
