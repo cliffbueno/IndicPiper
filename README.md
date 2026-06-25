@@ -8,9 +8,32 @@ There are also functions (in IndicPiper.R) to generate your own database based o
 There is also a function to generate a diagnostic plot (`checkIndicPiper()`) so you can see to what relative abundance the indicator taxa sum to in the target habitat as well as how much they spill over into other habitats.
 
 ## Installation
-To run IndicPiper, you just need R and few libraries. IndicPiper was developed with R 4.5.2. Required libraries are tidyr, dplyr, tibble, permute, indicspecies, ggplot2, data.table, FSA, rlang, R.utils, and reshape2. These can be installed with:\
-`install.packages(c("tidyr", "dplyr", "tibble", "permute", "indicspecies", "ggplot2", "data.table", "FSA", "rlang", "R.utils", "reshape2"))`.\
-You also need to the two starting input files, which can be downloaded here: [https://doi.org/10.6084/m9.figshare.32305302](https://zenodo.org/records/20855888).
+
+To run IndicPiper, you only need R and a few R packages. IndicPiper was developed with R 4.5.2.
+
+Install the required packages with:
+
+```r
+install.packages(c(
+  "tidyr", "dplyr", "tibble", "permute", "indicspecies",
+  "ggplot2", "data.table", "FSA", "rlang",
+  "R.utils", "reshape2"
+))
+```
+
+You will also need the two starting input files, which can be downloaded from Zenodo:
+
+https://zenodo.org/records/20855888
+
+or from the command line using:
+
+```bash
+wget "https://zenodo.org/records/20855888/files/Sandpiper_Genus_Filt_n451568.csv.gz?download=1" \
+  -O Sandpiper_Genus_Filt_n451568.csv.gz
+
+wget "https://zenodo.org/records/20855888/files/Sandpiper_Metadata_Filt_n451568.txt?download=1" \
+  -O Sandpiper_Metadata_Filt_n451568.txt
+```
 
 ## Usage
 To use the provided database, generate GTDB taxonomic abundance profiles from metagenomes or 16S rRNA gene sequencing and then exact match by genus name to assign genera as "non-indicator" or as indicators of the habitats according to the IndicPiper output. Then you can just aggregate by indicator taxa and plot relative abundances as you would for any other aggregated taxonomic level like phylum.
