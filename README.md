@@ -1,24 +1,24 @@
 # IndicPiper
 IndicPiper: microbial indicator taxa analysis using Sandpiper and multipatt
 
-This repo contains the IndicPiper database made by Cliff Bueno de Mesquita based on 13 habitats, using 100 runs, 215 random samples per habitat per run, and cutoffs of indicator in 100% of runs, mean p-value < 0.01, and mean IndVal > 0.5. For many cases, you can just use this database for your projects. Whether you have metagenomes or 16S sequencing, just use GTDB taxonomy and perform exact name matching at the genus level. Then, for example, you can aggregate relative abundances by indicator habitat, and perform statistics and plotting. 
+This repo contains the IndicPiper database made by Cliff Bueno de Mesquita based on 13 habitats, using 100 runs, 250 random samples per habitat per run, and cutoffs of indicator in 100% of runs, mean p-value < 0.01, and mean IndVal > 0.5. For many cases, you can just use this database for your projects. Whether you have metagenomes or 16S sequencing, just use GTDB taxonomy and perform exact name matching at the genus level. IndicPiper v2 uses GTDB r232 taxonomy. For GTDB r226 taxonomy, use IndicPiper v1 (see releases). Then, for example, you can aggregate relative abundances by indicator habitat, and perform statistics and plotting. 
 
-There are also functions (in IndicPiper.R) to generate your own database based on habitats of interest or different parameters. The input metadata and taxaonomic profile are available on FigShare, and these were generated with GenerateStartingPoint.R. You can then supply the function with your habitats of interest and cutoffs you want to use. We recommend not going any less stringent than the cutoffs we used. We also recommend focusing on habitats that have good sample sizes (ideally in the hundreds of samples). We have removed habitats with < 50 samples.  
+There are also functions (in IndicPiper.R) to generate your own database based on habitats of interest or different parameters. The starting metadata and taxaonomic profile files are available on Zenodo (https://zenodo.org/records/20855888), and these were generated with GenerateStartingPoint.R. You can then supply the functions with your habitats of interest and cutoffs you want to use. We recommend not going any less stringent than the cutoffs we used, but you could potentially try more stringent cutoffs to get only the strongest associations. We also recommend focusing on habitats that have good sample sizes (ideally in the hundreds of samples). We have removed habitats with < 50 samples.  
 
 There is also a function to generate a diagnostic plot (`checkIndicPiper()`) so you can see to what relative abundance the indicator taxa sum to in the target habitat as well as how much they spill over into other habitats.
 
 ## Installation
-To run IndicPiper, you just need R and few libraries. IndicPiper was developed with R 4.5.2. Required libraries are tidyr, dplyr, tibble, permute, indicspecies, ggplot2, data.table, FSA, rlang and R.utils. These can be installed with:\
-`install.packages(c("tidyr", "dplyr", "tibble", "permute", "indicspecies", "ggplot2", "data.table", "FSA", "rlang", "R.utils"))`.\
-You also need to the two starting input files, which can be downloaded here: https://doi.org/10.6084/m9.figshare.32305302.
+To run IndicPiper, you just need R and few libraries. IndicPiper was developed with R 4.5.2. Required libraries are tidyr, dplyr, tibble, permute, indicspecies, ggplot2, data.table, FSA, rlang, R.utils, and reshape2. These can be installed with:\
+`install.packages(c("tidyr", "dplyr", "tibble", "permute", "indicspecies", "ggplot2", "data.table", "FSA", "rlang", "R.utils", "reshape2"))`.\
+You also need to the two starting input files, which can be downloaded here: [https://doi.org/10.6084/m9.figshare.32305302](https://zenodo.org/records/20855888).
 
 ## Usage
-To use the provided database, generate GTDB taxonomic abundance profiles from metagenomes or 16S rRNA gene sequencing and then exact match by genus name to assign genera as "non-indicator" or as indicators of the habitats according to the IndicPiper output. Then you can just aggregate by indicator taxa and plot relative abundances as you would other taxa or guilds.
+To use the provided database, generate GTDB taxonomic abundance profiles from metagenomes or 16S rRNA gene sequencing and then exact match by genus name to assign genera as "non-indicator" or as indicators of the habitats according to the IndicPiper output. Then you can just aggregate by indicator taxa and plot relative abundances as you would for any other aggregated taxonomic level like phylum.
  
 You can also generate your own database (for example, if you need a habitat not in the 13 provided).
 
-To do a custom run of IndicPiper, download the two input files from FigShare (https://doi.org/10.6084/m9.figshare.32305302).
-Then load all of the functions with source(IndicPiper.R). You could then use the functions interactively on RStudio Server, or make an .R script in which you set the working directory, run source(IndicPiper.R), and then run one of the functions, providing your arguments. Such a file could then be run in the terminal with Rscript YourFile.R. For examples of each function, I have provided 4 "Test" scripts, which demonstrate this.
+To do a custom run of IndicPiper, download the two input files from Zenodo https://zenodo.org/records/20855888.
+Then load all of the functions with source(IndicPiper.R). You could then use the functions interactively on RStudio Server, or make an .R script in which you set the working directory, run source(IndicPiper.R), and then run one of the functions, providing your arguments. Such a file could then be run in the terminal with Rscript YourFile.R. For examples of each function, I have provided 4 "Test" scripts, which demonstrate this. I've also provided some example slurm scripts for how I ran this on the University of Colorado supercomputer; those would have to be updated according to your computer. Note that due to the large file sizes, 275 Gb RAM is needed for prepIndicPiper(). Less RAM is needed for runIndicPiper(). For example, for the 13 habitats I made the database for, 192 Gb RAM were needed.
 IndicPiper has 4 main functions:\
   `countHabitats()`\
   `prepIndicPiper()`\
@@ -30,9 +30,9 @@ IndicPiper has 4 main functions:\
    Arguments:
 
    - `meta`: the metadata file path.  
-     Default = `"Sandpiper_Metadata_Filt_n358209.txt"`
+     Default = `"Sandpiper_Metadata_Filt_n451568.txt"`
 
-2. Use the `prepIndicPiper()` function to filter the metadata table and genus relative abundance table to your habitats of interest and optionally combine certain habitats.
+2. Use the `prepIndicPiper()` function to filter the metadata table and genus relative abundance table to your habitats of interest and optionally combine certain habitats. The combine arguments won't affect you if you aren't using those habitats. Don't combine if you need a specific habitat that is otherwise combined by default.
 
    Arguments:
 
@@ -70,7 +70,7 @@ IndicPiper has 4 main functions:\
      Default = `100`
 
    - `n_per_habitat`: the sample size per habitat per run. Samples are randomly selected. Must be less than the lowest number of samples in any one habitat from your `habitat_list`. Check the habitat counts at the end of `prepIndicPiper()`.  
-     Default = `215`
+     Default = `250`
 
    - `run_cut`: cutoff for filtering multipatt output. The percent of runs that a given genus is an indicator of the same habitat.  
      Default = `100`
@@ -97,8 +97,23 @@ IndicPiper has 4 main functions:\
    - `ind`: an IndicPiper database (e.g., made with `runIndicPiper()`).  
      Default = `"genus_habitat_indicators_custom.csv"`
 
+   - `output`: name of the output plot.  
+     Default = `"IndicPiper_SummedAbund.pdf"`
+
+   - `ncol`: number of columns in the `facet_wrap()`.  
+     Default = `2`
+
+   - `keep_unassigned`: whether to keep the **Unassigned** facet.  
+     Default = `FALSE`
+
+   - `keep_nonindicator`: whether to keep the **Non-indicator** facet.  
+     Default = `TRUE`
+
+   - `custom_order`: a custom order for the facets. Supply a character vector of habitat names in the desired order.  
+     Default = `NULL`
+
 ## Resources
-We recommend running IndicPiper on a server or supercomputer due to the size of the databases and the heavy computation needed to run all of the iterations of multipatt on the large input tables. IndicPiper was developed on a server with 250 Gb RAM and 32 cores. `countHabitats` took 1 minute. `prepIndicPiper` took 24 minutes. `runIndicPiper` took 7 hours for 100 runs or 15 minutes for 5 runs (testing). `checkIndicPiper` took 30 seconds.
+We recommend running IndicPiper on a server or supercomputer due to the size of the databases and the heavy computation needed to run all of the iterations of multipatt on the large input tables. IndicPiper v2 was developed on a supercomputer with 275 Gb RAM. `countHabitats` took 1 minute. `prepIndicPiper` took 44 minutes with 20 cores. `runIndicPiper` took 7 hours with 16 cores for 100 runs. `checkIndicPiper` took 22 seconds.
 
 ## References
 IndicPiper will be described in a forthcoming publication. If you need to cite IndicPiper before the paper is out, please cite this GitHub repository. Please also mention that IndicPiper relies on the Sandpiper database and cite the Sandpiper/SingleM paper too (Woodcroft et al. 2025). We also suggest citing the paper associated with the `multipatt()` R function used by IndicPiper (De Cáceres and Legendre, 2009). Lastly, if you use `checkIndicPiper()`, it uses functions from Jonathan Leff's mctoolsr package (Leff, 2022).
