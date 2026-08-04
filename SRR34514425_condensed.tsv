@@ -1,0 +1,703 @@
+sample	coverage	full_coverage	relative_abundance	level	taxonomy
+SRR34514425	0	4737.42	100.0	root	Root
+SRR34514425	9.53	4707.51	99.37	domain	Root; d__Bacteria
+SRR34514425	5.56	29.91	0.63	domain	Root; d__Archaea
+SRR34514425	0.5	76.21	1.61	phylum	Root; d__Bacteria; p__Pseudomonadota
+SRR34514425	3.02	2411.45	50.9	phylum	Root; d__Bacteria; p__Bacillota
+SRR34514425	2.13	161.11	3.4	phylum	Root; d__Bacteria; p__Actinomycetota
+SRR34514425	0	1224.43	25.85	phylum	Root; d__Bacteria; p__Bacteroidota
+SRR34514425	0	205.21	4.33	phylum	Root; d__Bacteria; p__Verrucomicrobiota
+SRR34514425	0.22	31.01	0.65	phylum	Root; d__Bacteria; p__Desulfobacterota
+SRR34514425	0	566.38	11.96	phylum	Root; d__Bacteria; p__Bacillota_I
+SRR34514425	0	21.46	0.45	phylum	Root; d__Bacteria; p__Cyanobacteriota
+SRR34514425	0.05	0.72	0.02	phylum	Root; d__Bacteria; p__Patescibacteriota
+SRR34514425	0	21.76	0.46	phylum	Root; d__Archaea; p__Methanobacteriota
+SRR34514425	1.12	1.12	0.02	phylum	Root; d__Archaea; p__Thermoproteota
+SRR34514425	0	1.47	0.03	phylum	Root; d__Archaea; p__Nanobdellota
+SRR34514425	0.88	26.62	0.56	class	Root; d__Bacteria; p__Pseudomonadota; c__Gammaproteobacteria
+SRR34514425	0.17	49.09	1.04	class	Root; d__Bacteria; p__Pseudomonadota; c__Alphaproteobacteria
+SRR34514425	0.16	22.24	0.47	class	Root; d__Bacteria; p__Bacillota; c__Bacilli
+SRR34514425	20.28	2294.85	48.44	class	Root; d__Bacteria; p__Bacillota; c__Clostridia
+SRR34514425	0.87	86.74	1.83	class	Root; d__Bacteria; p__Bacillota; c__Negativicutes
+SRR34514425	0	2.42	0.05	class	Root; d__Bacteria; p__Bacillota; c__Dehalobacteriia
+SRR34514425	0.09	1.22	0.03	class	Root; d__Bacteria; p__Bacillota; c__Peptococcia
+SRR34514425	0	0.96	0.02	class	Root; d__Bacteria; p__Bacillota; c__DTU025
+SRR34514425	0.06	29.65	0.63	class	Root; d__Bacteria; p__Actinomycetota; c__Actinomycetes
+SRR34514425	0	129.33	2.73	class	Root; d__Bacteria; p__Actinomycetota; c__Coriobacteriia
+SRR34514425	0.23	1224.43	25.85	class	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia
+SRR34514425	0.9	184.74	3.9	class	Root; d__Bacteria; p__Verrucomicrobiota; c__Verrucomicrobiia
+SRR34514425	0	20.47	0.43	class	Root; d__Bacteria; p__Verrucomicrobiota; c__Lentisphaeria
+SRR34514425	0	30.79	0.65	class	Root; d__Bacteria; p__Desulfobacterota; c__Desulfovibrionia
+SRR34514425	3.56	566.38	11.96	class	Root; d__Bacteria; p__Bacillota_I; c__Bacilli_A
+SRR34514425	0.06	21.46	0.45	class	Root; d__Bacteria; p__Cyanobacteriota; c__Vampirovibrionia
+SRR34514425	0.05	0.67	0.01	class	Root; d__Bacteria; p__Patescibacteriota; c__Saccharimonadia
+SRR34514425	0	21.76	0.46	class	Root; d__Archaea; p__Methanobacteriota; c__Methanobacteria
+SRR34514425	1.47	1.47	0.03	class	Root; d__Archaea; p__Nanobdellota; c__Nanobdellia
+SRR34514425	0.87	1.84	0.04	order	Root; d__Bacteria; p__Pseudomonadota; c__Gammaproteobacteria; o__Enterobacterales
+SRR34514425	0.79	23.9	0.5	order	Root; d__Bacteria; p__Pseudomonadota; c__Gammaproteobacteria; o__Burkholderiales
+SRR34514425	0	48.92	1.03	order	Root; d__Bacteria; p__Pseudomonadota; c__Alphaproteobacteria; o__RF32
+SRR34514425	0.79	22.08	0.47	order	Root; d__Bacteria; p__Bacillota; c__Bacilli; o__Lactobacillales
+SRR34514425	0.34	18.5	0.39	order	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Peptostreptococcales
+SRR34514425	0	4.44	0.09	order	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Clostridiales
+SRR34514425	2.06	556.5	11.75	order	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales
+SRR34514425	0	1365.35	28.82	order	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales
+SRR34514425	3.65	249.71	5.27	order	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales
+SRR34514425	0.74	5.16	0.11	order	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__UBA1381
+SRR34514425	0.18	72.93	1.54	order	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__TANB77
+SRR34514425	0	1.64	0.03	order	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__UMGS1810
+SRR34514425	0	0.34	0.01	order	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__HGM11514
+SRR34514425	0	73.71	1.56	order	Root; d__Bacteria; p__Bacillota; c__Negativicutes; o__Acidaminococcales
+SRR34514425	0.68	12.16	0.26	order	Root; d__Bacteria; p__Bacillota; c__Negativicutes; o__Veillonellales
+SRR34514425	0.59	2.42	0.05	order	Root; d__Bacteria; p__Bacillota; c__Dehalobacteriia; o__UBA4068
+SRR34514425	0	0.45	0.01	order	Root; d__Bacteria; p__Bacillota; c__Peptococcia; o__Peptococcales
+SRR34514425	0	0.68	0.01	order	Root; d__Bacteria; p__Bacillota; c__Peptococcia; o__DRI-13
+SRR34514425	0	0.96	0.02	order	Root; d__Bacteria; p__Bacillota; c__DTU025; o__DTU025
+SRR34514425	1.7	29.59	0.62	order	Root; d__Bacteria; p__Actinomycetota; c__Actinomycetes; o__Actinomycetales
+SRR34514425	2.85	129.33	2.73	order	Root; d__Bacteria; p__Actinomycetota; c__Coriobacteriia; o__Coriobacteriales
+SRR34514425	7.59	1214.77	25.64	order	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales
+SRR34514425	0.06	9.43	0.2	order	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Flavobacteriales
+SRR34514425	0	178.16	3.76	order	Root; d__Bacteria; p__Verrucomicrobiota; c__Verrucomicrobiia; o__Verrucomicrobiales
+SRR34514425	0	5.68	0.12	order	Root; d__Bacteria; p__Verrucomicrobiota; c__Verrucomicrobiia; o__Opitutales
+SRR34514425	0.55	20.47	0.43	order	Root; d__Bacteria; p__Verrucomicrobiota; c__Lentisphaeria; o__Victivallales
+SRR34514425	0	30.79	0.65	order	Root; d__Bacteria; p__Desulfobacterota; c__Desulfovibrionia; o__Desulfovibrionales
+SRR34514425	0.59	86.39	1.82	order	Root; d__Bacteria; p__Bacillota_I; c__Bacilli_A; o__Erysipelotrichales
+SRR34514425	0	439.76	9.28	order	Root; d__Bacteria; p__Bacillota_I; c__Bacilli_A; o__RF39
+SRR34514425	0.48	12.32	0.26	order	Root; d__Bacteria; p__Bacillota_I; c__Bacilli_A; o__RFN20
+SRR34514425	0	24.35	0.51	order	Root; d__Bacteria; p__Bacillota_I; c__Bacilli_A; o__ML615J-28
+SRR34514425	0	21.4	0.45	order	Root; d__Bacteria; p__Cyanobacteriota; c__Vampirovibrionia; o__Gastranaerophilales
+SRR34514425	0	0.62	0.01	order	Root; d__Bacteria; p__Patescibacteriota; c__Saccharimonadia; o__Saccharimonadales
+SRR34514425	0	21.76	0.46	order	Root; d__Archaea; p__Methanobacteriota; c__Methanobacteria; o__Methanobacteriales
+SRR34514425	0.06	0.97	0.02	family	Root; d__Bacteria; p__Pseudomonadota; c__Gammaproteobacteria; o__Enterobacterales; f__Pasteurellaceae
+SRR34514425	0.34	23.11	0.49	family	Root; d__Bacteria; p__Pseudomonadota; c__Gammaproteobacteria; o__Burkholderiales; f__Burkholderiaceae_F
+SRR34514425	0.51	48.92	1.03	family	Root; d__Bacteria; p__Pseudomonadota; c__Alphaproteobacteria; o__RF32; f__CAG-239
+SRR34514425	0.51	20.89	0.44	family	Root; d__Bacteria; p__Bacillota; c__Bacilli; o__Lactobacillales; f__Streptococcaceae
+SRR34514425	0.4	0.4	0.01	family	Root; d__Bacteria; p__Bacillota; c__Bacilli; o__Lactobacillales; f__Lactobacillaceae
+SRR34514425	0.4	3.12	0.07	family	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Peptostreptococcales; f__Peptostreptococcaceae
+SRR34514425	3.04	15.04	0.32	family	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Peptostreptococcales; f__Anaerovoracaceae
+SRR34514425	0.11	4.44	0.09	family	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Clostridiales; f__Clostridiaceae
+SRR34514425	23.18	539.85	11.4	family	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae
+SRR34514425	1.59	14.02	0.3	family	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Anaerotignaceae
+SRR34514425	0	0.57	0.01	family	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Bianqueaceae
+SRR34514425	10.97	627.81	13.25	family	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Ruminococcaceae
+SRR34514425	11.65	292.49	6.17	family	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Acutalibacteraceae
+SRR34514425	17.41	352.92	7.45	family	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Oscillospiraceae
+SRR34514425	1.96	15.7	0.33	family	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Butyricicoccaceae
+SRR34514425	3.1	59.21	1.25	family	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__CAG-272
+SRR34514425	0.57	1.37	0.03	family	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__UBA644
+SRR34514425	0.79	7.28	0.15	family	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__CAG-382
+SRR34514425	0.63	0.63	0.01	family	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__QAMX01
+SRR34514425	0.06	4.09	0.09	family	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Feifaniaceae
+SRR34514425	0	1.72	0.04	family	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__UMGS1783
+SRR34514425	0.06	2.13	0.04	family	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__QAKW01
+SRR34514425	5.02	43.99	0.93	family	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__Aristaeellaceae
+SRR34514425	1.64	8.79	0.19	family	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__Borkfalkiaceae
+SRR34514425	1.97	115.07	2.43	family	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__CAG-138
+SRR34514425	0.06	0.99	0.02	family	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__CAG-917
+SRR34514425	0.29	56.65	1.2	family	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__CAG-314
+SRR34514425	0.79	6.86	0.14	family	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__Pumilibacteraceae
+SRR34514425	1.0	4.01	0.08	family	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__Christensenellaceae
+SRR34514425	0.57	3.74	0.08	family	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__UBA1750
+SRR34514425	0.06	2.16	0.05	family	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__QALW01
+SRR34514425	0.4	0.8	0.02	family	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__QAND01
+SRR34514425	0.28	2.55	0.05	family	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__HGM11417
+SRR34514425	0.45	0.45	0.01	family	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__UMGS416
+SRR34514425	0.06	4.42	0.09	family	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__UBA1381; f__UBA1381
+SRR34514425	2.48	60.67	1.28	family	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__TANB77; f__CAG-508
+SRR34514425	0	12.08	0.25	family	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__TANB77; f__CAG-465
+SRR34514425	0.28	1.64	0.03	family	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__UMGS1810; f__UMGS1810
+SRR34514425	0.34	0.34	0.01	family	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__HGM11514; f__HGM11514
+SRR34514425	0.56	73.71	1.56	family	Root; d__Bacteria; p__Bacillota; c__Negativicutes; o__Acidaminococcales; f__Acidaminococcaceae
+SRR34514425	0.46	11.48	0.24	family	Root; d__Bacteria; p__Bacillota; c__Negativicutes; o__Veillonellales; f__Dialisteraceae
+SRR34514425	0.96	1.83	0.04	family	Root; d__Bacteria; p__Bacillota; c__Dehalobacteriia; o__UBA4068; f__UBA4068
+SRR34514425	0.45	0.45	0.01	family	Root; d__Bacteria; p__Bacillota; c__Peptococcia; o__Peptococcales; f__Peptococcaceae
+SRR34514425	0.23	0.68	0.01	family	Root; d__Bacteria; p__Bacillota; c__Peptococcia; o__DRI-13; f__UBA5745
+SRR34514425	0	0.96	0.02	family	Root; d__Bacteria; p__Bacillota; c__DTU025; o__DTU025; f__HGM14224
+SRR34514425	0.34	25.17	0.53	family	Root; d__Bacteria; p__Actinomycetota; c__Actinomycetes; o__Actinomycetales; f__Bifidobacteriaceae
+SRR34514425	0.74	2.72	0.06	family	Root; d__Bacteria; p__Actinomycetota; c__Actinomycetes; o__Actinomycetales; f__Actinomycetaceae
+SRR34514425	1.92	28.61	0.6	family	Root; d__Bacteria; p__Actinomycetota; c__Coriobacteriia; o__Coriobacteriales; f__Eggerthellaceae
+SRR34514425	1.04	6.08	0.13	family	Root; d__Bacteria; p__Actinomycetota; c__Coriobacteriia; o__Coriobacteriales; f__Atopobiaceae
+SRR34514425	2.73	91.39	1.93	family	Root; d__Bacteria; p__Actinomycetota; c__Coriobacteriia; o__Coriobacteriales; f__Coriobacteriaceae
+SRR34514425	0	0.4	0.01	family	Root; d__Bacteria; p__Actinomycetota; c__Coriobacteriia; o__Coriobacteriales; f__UMGS124
+SRR34514425	0.88	557.33	11.76	family	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Bacteroidaceae
+SRR34514425	0.17	24.44	0.52	family	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Tannerellaceae
+SRR34514425	1.04	578.19	12.2	family	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Rikenellaceae
+SRR34514425	0.61	28.95	0.61	family	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Marinifilaceae
+SRR34514425	0	2.66	0.06	family	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Barnesiellaceae
+SRR34514425	0	1.11	0.02	family	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Coprobacteraceae
+SRR34514425	0	13.45	0.28	family	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__UBA11471
+SRR34514425	0	1.05	0.02	family	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Marinilabiliaceae
+SRR34514425	0	9.37	0.2	family	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Flavobacteriales; f__UBA1820
+SRR34514425	0.06	178.16	3.76	family	Root; d__Bacteria; p__Verrucomicrobiota; c__Verrucomicrobiia; o__Verrucomicrobiales; f__Akkermansiaceae
+SRR34514425	0	5.68	0.12	family	Root; d__Bacteria; p__Verrucomicrobiota; c__Verrucomicrobiia; o__Opitutales; f__Intestinicryptomonadaceae
+SRR34514425	0.06	16.27	0.34	family	Root; d__Bacteria; p__Verrucomicrobiota; c__Lentisphaeria; o__Victivallales; f__Victivallaceae
+SRR34514425	0	3.65	0.08	family	Root; d__Bacteria; p__Verrucomicrobiota; c__Lentisphaeria; o__Victivallales; f__UBA1829
+SRR34514425	0.32	30.79	0.65	family	Root; d__Bacteria; p__Desulfobacterota; c__Desulfovibrionia; o__Desulfovibrionales; f__Desulfovibrionaceae
+SRR34514425	0.51	34.26	0.72	family	Root; d__Bacteria; p__Bacillota_I; c__Bacilli_A; o__Erysipelotrichales; f__Erysipelotrichaceae
+SRR34514425	0.22	51.54	1.09	family	Root; d__Bacteria; p__Bacillota_I; c__Bacilli_A; o__Erysipelotrichales; f__Coprobacillaceae
+SRR34514425	13.13	439.76	9.28	family	Root; d__Bacteria; p__Bacillota_I; c__Bacilli_A; o__RF39; f__UBA660
+SRR34514425	0	9.52	0.2	family	Root; d__Bacteria; p__Bacillota_I; c__Bacilli_A; o__RFN20; f__CAG-631
+SRR34514425	0	2.32	0.05	family	Root; d__Bacteria; p__Bacillota_I; c__Bacilli_A; o__RFN20; f__CAG-449
+SRR34514425	0	24.35	0.51	family	Root; d__Bacteria; p__Bacillota_I; c__Bacilli_A; o__ML615J-28; f__CAG-313
+SRR34514425	1.16	21.4	0.45	family	Root; d__Bacteria; p__Cyanobacteriota; c__Vampirovibrionia; o__Gastranaerophilales; f__Gastranaerophilaceae
+SRR34514425	0.62	0.62	0.01	family	Root; d__Bacteria; p__Patescibacteriota; c__Saccharimonadia; o__Saccharimonadales; f__Saccharimonadaceae
+SRR34514425	0.4	21.76	0.46	family	Root; d__Archaea; p__Methanobacteriota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae
+SRR34514425	0.91	0.91	0.02	genus	Root; d__Bacteria; p__Pseudomonadota; c__Gammaproteobacteria; o__Enterobacterales; f__Pasteurellaceae; g__Haemophilus_D
+SRR34514425	2.44	15.87	0.33	genus	Root; d__Bacteria; p__Pseudomonadota; c__Gammaproteobacteria; o__Burkholderiales; f__Burkholderiaceae_F; g__Sutterella
+SRR34514425	0.88	6.9	0.15	genus	Root; d__Bacteria; p__Pseudomonadota; c__Gammaproteobacteria; o__Burkholderiales; f__Burkholderiaceae_F; g__Duodenibacillus
+SRR34514425	0	14.76	0.31	genus	Root; d__Bacteria; p__Pseudomonadota; c__Alphaproteobacteria; o__RF32; f__CAG-239; g__Scatacola_A
+SRR34514425	0	20.63	0.44	genus	Root; d__Bacteria; p__Pseudomonadota; c__Alphaproteobacteria; o__RF32; f__CAG-239; g__Scatocola
+SRR34514425	0	13.02	0.27	genus	Root; d__Bacteria; p__Pseudomonadota; c__Alphaproteobacteria; o__RF32; f__CAG-239; g__JAFUYI01
+SRR34514425	8.99	20.38	0.43	genus	Root; d__Bacteria; p__Bacillota; c__Bacilli; o__Lactobacillales; f__Streptococcaceae; g__Streptococcus
+SRR34514425	0.21	0.92	0.02	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Peptostreptococcales; f__Peptostreptococcaceae; g__Intestinibacter
+SRR34514425	0.05	1.8	0.04	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Peptostreptococcales; f__Peptostreptococcaceae; g__Romboutsia
+SRR34514425	1.49	3.17	0.07	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Peptostreptococcales; f__Anaerovoracaceae; g__Lentihominibacter
+SRR34514425	1.01	1.88	0.04	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Peptostreptococcales; f__Anaerovoracaceae; g__UMGS973
+SRR34514425	1.9	5.87	0.12	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Peptostreptococcales; f__Anaerovoracaceae; g__CAG-238
+SRR34514425	0	1.08	0.02	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Peptostreptococcales; f__Anaerovoracaceae; g__CAKQOE01
+SRR34514425	0.76	4.33	0.09	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Clostridiales; f__Clostridiaceae; g__Clostridium
+SRR34514425	6.0	66.46	1.4	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Roseburia
+SRR34514425	30.25	93.72	1.98	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Blautia_A
+SRR34514425	0	15.63	0.33	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Fusicatenibacter
+SRR34514425	0.17	7.0	0.15	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Suilimivivens
+SRR34514425	0.17	8.43	0.18	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Anaerostipes
+SRR34514425	0.39	30.77	0.65	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Acetatifactor
+SRR34514425	0.35	5.48	0.12	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Hominiventricola
+SRR34514425	0	36.08	0.76	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Mediterraneibacter
+SRR34514425	2.75	19.19	0.41	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Lachnospira
+SRR34514425	0	49.3	1.04	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Coprococcus_C
+SRR34514425	0	42.11	0.89	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Dorea_A
+SRR34514425	0	7.73	0.16	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Allocoprococcus
+SRR34514425	0.22	5.61	0.12	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Otoolea
+SRR34514425	0	0.95	0.02	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Gallintestinimicrobium
+SRR34514425	0.48	1.55	0.03	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Enterocloster
+SRR34514425	2.14	11.48	0.24	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Eubacterium_F
+SRR34514425	0.06	1.77	0.04	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__UBA3402
+SRR34514425	0	7.25	0.15	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Dorea
+SRR34514425	0.01	2.25	0.05	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Hominisplanchenecus
+SRR34514425	0.31	23.9	0.5	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Anaerobutyricum
+SRR34514425	0.16	9.02	0.19	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Anthropogastromicrobium
+SRR34514425	0.08	2.39	0.05	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Pilosibacter
+SRR34514425	0.63	12.03	0.25	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Oliverpabstia
+SRR34514425	0	6.27	0.13	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Coprococcus_A
+SRR34514425	0	3.85	0.08	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Butyribacter
+SRR34514425	0.36	0.36	0.01	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Schaedlerella
+SRR34514425	0	1.89	0.04	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Maccoyibacter
+SRR34514425	0.37	1.43	0.03	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Laedolimicola
+SRR34514425	0.22	1.34	0.03	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__CAG-194
+SRR34514425	0.42	8.9	0.19	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Eubacterium_I
+SRR34514425	0	6.69	0.14	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Eubacterium_U
+SRR34514425	0.29	1.65	0.03	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Limivivens
+SRR34514425	0.19	1.04	0.02	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Claveliimonas
+SRR34514425	0.05	0.89	0.02	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Pararoseburia
+SRR34514425	0	4.6	0.1	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Eubacterium_G
+SRR34514425	0.53	5.56	0.12	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Choladousia
+SRR34514425	0	0.48	0.01	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Brotaphodocola
+SRR34514425	0	5.1	0.11	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__UBA4285
+SRR34514425	0.02	0.92	0.02	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Lientehia
+SRR34514425	0.08	1.99	0.04	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Hominifimenecus
+SRR34514425	0.12	0.75	0.02	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Marvinbryantia
+SRR34514425	0.46	0.46	0.01	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Mediterraneibacter_A
+SRR34514425	0.17	0.69	0.01	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__JAGTTR01
+SRR34514425	0	1.15	0.02	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__V9D3004
+SRR34514425	0.11	0.56	0.01	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__CAKRHR01
+SRR34514425	2.02	11.83	0.25	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Anaerotignaceae; g__Anaerotignum_A
+SRR34514425	0	0.6	0.01	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Anaerotignaceae; g__Metalachnospira
+SRR34514425	0.57	0.57	0.01	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Bianqueaceae; g__Faecimorpha
+SRR34514425	3.4	47.54	1.0	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Ruminococcaceae; g__Gemmiger
+SRR34514425	0.17	12.48	0.26	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Ruminococcaceae; g__Hominimerdicola
+SRR34514425	54.48	289.67	6.11	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Ruminococcaceae; g__Faecalibacterium
+SRR34514425	7.57	210.22	4.44	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Ruminococcaceae; g__Ruminiclostridium_E
+SRR34514425	0.23	2.29	0.05	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Ruminococcaceae; g__Ruthenibacterium
+SRR34514425	0.42	0.42	0.01	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Ruminococcaceae; g__Anaerotruncus
+SRR34514425	0.02	4.98	0.11	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Ruminococcaceae; g__Porcipelethomonas
+SRR34514425	3.23	35.19	0.74	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Ruminococcaceae; g__Angelakisella
+SRR34514425	1.31	1.31	0.03	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Ruminococcaceae; g__Negativibacillus
+SRR34514425	0.17	1.14	0.02	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Ruminococcaceae; g__JAFBIO01
+SRR34514425	0.27	1.2	0.03	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Ruminococcaceae; g__SFJ001
+SRR34514425	0.27	1.81	0.04	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Ruminococcaceae; g__Avimicrobium
+SRR34514425	0.36	0.36	0.01	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Ruminococcaceae; g__Yanshouia
+SRR34514425	0.01	1.2	0.03	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Ruminococcaceae; g__UBA3818
+SRR34514425	0.51	0.51	0.01	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Ruminococcaceae; g__Merdivicinus
+SRR34514425	0	6.52	0.14	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Ruminococcaceae; g__HGM13222
+SRR34514425	10.11	136.99	2.89	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Acutalibacteraceae; g__Ruminococcoides
+SRR34514425	0	8.9	0.19	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Acutalibacteraceae; g__Hominenteromicrobium
+SRR34514425	1.23	11.29	0.24	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Acutalibacteraceae; g__CAG-217
+SRR34514425	0	33.24	0.7	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Acutalibacteraceae; g__Eubacterium_R
+SRR34514425	0	81.03	1.71	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Acutalibacteraceae; g__CAG-177
+SRR34514425	0	4.54	0.1	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Acutalibacteraceae; g__CAG-488
+SRR34514425	0.64	1.11	0.02	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Acutalibacteraceae; g__UBA737
+SRR34514425	0.33	0.95	0.02	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Acutalibacteraceae; g__Caccousia
+SRR34514425	0	0.63	0.01	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Acutalibacteraceae; g__Heritagella
+SRR34514425	0.51	0.51	0.01	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Acutalibacteraceae; g__CAKXIK01
+SRR34514425	0	1.65	0.03	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Acutalibacteraceae; g__Yeguia
+SRR34514425	16.32	74.68	1.58	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Oscillospiraceae; g__Hominicoprocola
+SRR34514425	0.51	1.05	0.02	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Oscillospiraceae; g__Flavonifractor
+SRR34514425	11.27	46.87	0.99	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Oscillospiraceae; g__Vescimonas
+SRR34514425	4.84	33.09	0.7	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Oscillospiraceae; g__CAG-103
+SRR34514425	6.39	18.73	0.4	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Oscillospiraceae; g__Oscillibacter
+SRR34514425	1.11	1.11	0.02	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Oscillospiraceae; g__Pelethomonas
+SRR34514425	0.54	0.54	0.01	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Oscillospiraceae; g__Enterenecus
+SRR34514425	8.1	52.13	1.1	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Oscillospiraceae; g__CAG-170
+SRR34514425	1.38	1.38	0.03	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Oscillospiraceae; g__JAZOXB01
+SRR34514425	7.94	43.07	0.91	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Oscillospiraceae; g__Faecousia
+SRR34514425	4.05	10.67	0.23	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Oscillospiraceae; g__Lawsonibacter
+SRR34514425	0.66	6.54	0.14	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Oscillospiraceae; g__Evtepia
+SRR34514425	0.58	0.58	0.01	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Oscillospiraceae; g__Intestinimonas
+SRR34514425	2.92	26.55	0.56	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Oscillospiraceae; g__Limivicinus
+SRR34514425	0.78	5.37	0.11	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Oscillospiraceae; g__F23-B02
+SRR34514425	0.74	0.74	0.02	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Oscillospiraceae; g__Scatomorpha
+SRR34514425	0.01	0.44	0.01	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Oscillospiraceae; g__Lawsonibacter_A
+SRR34514425	1.85	5.69	0.12	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Oscillospiraceae; g__Onthomonas
+SRR34514425	0	0.57	0.01	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Oscillospiraceae; g__CALXCR01
+SRR34514425	0.53	0.53	0.01	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Oscillospiraceae; g__Pseudoflavonifractor_A
+SRR34514425	0.05	1.32	0.03	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Oscillospiraceae; g__HGM13006
+SRR34514425	0.1	2.09	0.04	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Oscillospiraceae; g__Pseudoscillospira
+SRR34514425	0.29	1.77	0.04	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Oscillospiraceae; g__SVMC01
+SRR34514425	1.06	12.07	0.25	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Butyricicoccaceae; g__Agathobaculum
+SRR34514425	0.51	0.51	0.01	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Butyricicoccaceae; g__Ventrousia
+SRR34514425	0	1.16	0.02	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Butyricicoccaceae; g__RGIG1902
+SRR34514425	0.06	0.57	0.01	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__CAG-272; g__CAKTAA01
+SRR34514425	8.47	25.0	0.53	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__CAG-272; g__UBA1740
+SRR34514425	0	7.74	0.16	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__CAG-272; g__UBA11512
+SRR34514425	0.15	8.57	0.18	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__CAG-272; g__Colimorpha_A
+SRR34514425	0.57	2.46	0.05	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__CAG-272; g__UMGS1696
+SRR34514425	0.06	1.08	0.02	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__CAG-272; g__Flemingiibacterium
+SRR34514425	0.56	2.43	0.05	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__CAG-272; g__UMGS1865
+SRR34514425	0	7.3	0.15	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__CAG-272; g__CAG-448
+SRR34514425	0	0.96	0.02	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__CAG-272; g__UMGS911
+SRR34514425	0.1	0.8	0.02	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__UBA644; g__UBA644
+SRR34514425	0.49	3.19	0.07	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__CAG-382; g__Woodwardiibium
+SRR34514425	0.69	3.3	0.07	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__CAG-382; g__UMGS882
+SRR34514425	1.17	4.03	0.09	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Feifaniaceae; g__Galloscillospira
+SRR34514425	0.52	1.72	0.04	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__UMGS1783; g__UMGS1783
+SRR34514425	0	2.07	0.04	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__QAKW01; g__RGIG9041
+SRR34514425	0	6.34	0.13	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__Aristaeellaceae; g__UBA11524
+SRR34514425	1.46	14.47	0.31	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__Aristaeellaceae; g__Ventricola
+SRR34514425	0.81	2.35	0.05	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__Aristaeellaceae; g__Limiplasma
+SRR34514425	0.76	5.16	0.11	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__Aristaeellaceae; g__SFMI01
+SRR34514425	0.26	0.72	0.02	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__Aristaeellaceae; g__Egerieenecus
+SRR34514425	1.19	2.72	0.06	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__Aristaeellaceae; g__Fimadaptatus
+SRR34514425	0.94	2.12	0.04	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__Aristaeellaceae; g__Faecivicinus
+SRR34514425	0	0.68	0.01	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__Aristaeellaceae; g__RUG11247
+SRR34514425	1.97	1.97	0.04	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__Aristaeellaceae; g__Pullichristensenella
+SRR34514425	0	0.62	0.01	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__Aristaeellaceae; g__RUG563
+SRR34514425	0.22	1.82	0.04	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__Aristaeellaceae; g__Aphodomonas
+SRR34514425	0.4	0.4	0.01	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__Borkfalkiaceae; g__Coproplasma
+SRR34514425	0.8	2.79	0.06	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__Borkfalkiaceae; g__Scatosoma
+SRR34514425	1.42	1.42	0.03	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__Borkfalkiaceae; g__Borkfalkia
+SRR34514425	0	2.54	0.05	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__Borkfalkiaceae; g__UMGS775
+SRR34514425	0	17.3	0.37	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__CAG-138; g__PeH17
+SRR34514425	3.36	41.53	0.88	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__CAG-138; g__SFEL01
+SRR34514425	0	1.65	0.03	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__CAG-138; g__Phil1
+SRR34514425	8.07	49.64	1.05	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__CAG-138; g__UBA1685
+SRR34514425	0.74	0.74	0.02	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__CAG-138; g__Pelethousia
+SRR34514425	0.02	2.24	0.05	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__CAG-138; g__Aphodomorpha
+SRR34514425	0.08	0.93	0.02	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__CAG-917; g__CAG-349
+SRR34514425	0	55.91	1.18	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__CAG-314; g__CAG-314
+SRR34514425	0.01	0.45	0.01	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__CAG-314; g__Heteroclostridium
+SRR34514425	0	5.67	0.12	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__Pumilibacteraceae; g__Neoclostridium
+SRR34514425	0.4	0.4	0.01	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__Pumilibacteraceae; g__UBA10677
+SRR34514425	0.56	3.01	0.06	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__Christensenellaceae; g__QANA01
+SRR34514425	0.46	0.46	0.01	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__UBA1750; g__Spyradocola
+SRR34514425	0	2.71	0.06	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__UBA1750; g__CALWRM01
+SRR34514425	0.36	2.1	0.04	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__QALW01; g__UMGS1338
+SRR34514425	0	0.4	0.01	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__QAND01; g__QAND01
+SRR34514425	0	2.27	0.05	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__HGM11417; g__HGM11417
+SRR34514425	0	4.36	0.09	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__UBA1381; f__UBA1381; g__Hominilimicola
+SRR34514425	2.79	7.42	0.16	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__TANB77; f__CAG-508; g__CAG-269
+SRR34514425	0	36.02	0.76	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__TANB77; f__CAG-508; g__DNVW01
+SRR34514425	0	11.29	0.24	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__TANB77; f__CAG-508; g__CAG-273
+SRR34514425	0	2.38	0.05	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__TANB77; f__CAG-508; g__CAG-793
+SRR34514425	0	1.08	0.02	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__TANB77; f__CAG-508; g__CALXVA01
+SRR34514425	0	12.08	0.25	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__TANB77; f__CAG-465; g__CAG-465
+SRR34514425	0.51	0.51	0.01	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__UMGS1810; f__UMGS1810; g__Qingrenia
+SRR34514425	0	0.85	0.02	genus	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__UMGS1810; f__UMGS1810; g__RGIG4708
+SRR34514425	0.14	0.85	0.02	genus	Root; d__Bacteria; p__Bacillota; c__Negativicutes; o__Acidaminococcales; f__Acidaminococcaceae; g__Phascolarctobacterium
+SRR34514425	0.03	1.98	0.04	genus	Root; d__Bacteria; p__Bacillota; c__Negativicutes; o__Acidaminococcales; f__Acidaminococcaceae; g__Acidaminococcus
+SRR34514425	5.86	70.32	1.48	genus	Root; d__Bacteria; p__Bacillota; c__Negativicutes; o__Acidaminococcales; f__Acidaminococcaceae; g__Fusicatenibacter_A
+SRR34514425	0.38	10.39	0.22	genus	Root; d__Bacteria; p__Bacillota; c__Negativicutes; o__Veillonellales; f__Dialisteraceae; g__Dialister
+SRR34514425	0.11	0.63	0.01	genus	Root; d__Bacteria; p__Bacillota; c__Negativicutes; o__Veillonellales; f__Dialisteraceae; g__Allisonella
+SRR34514425	0.38	0.38	0.01	genus	Root; d__Bacteria; p__Bacillota; c__Dehalobacteriia; o__UBA4068; f__UBA4068; g__HGM13862
+SRR34514425	0.49	0.49	0.01	genus	Root; d__Bacteria; p__Bacillota; c__Dehalobacteriia; o__UBA4068; f__UBA4068; g__RGIG3155
+SRR34514425	0.45	0.45	0.01	genus	Root; d__Bacteria; p__Bacillota; c__Peptococcia; o__DRI-13; f__UBA5745; g__JAYFQF01
+SRR34514425	0.07	0.96	0.02	genus	Root; d__Bacteria; p__Bacillota; c__DTU025; o__DTU025; f__HGM14224; g__HGM14224
+SRR34514425	4.34	24.83	0.52	genus	Root; d__Bacteria; p__Actinomycetota; c__Actinomycetes; o__Actinomycetales; f__Bifidobacteriaceae; g__Bifidobacterium
+SRR34514425	0.9	1.98	0.04	genus	Root; d__Bacteria; p__Actinomycetota; c__Actinomycetes; o__Actinomycetales; f__Actinomycetaceae; g__Pauljensenia
+SRR34514425	2.29	11.74	0.25	genus	Root; d__Bacteria; p__Actinomycetota; c__Coriobacteriia; o__Coriobacteriales; f__Eggerthellaceae; g__Anaerotardibacter
+SRR34514425	0.23	3.91	0.08	genus	Root; d__Bacteria; p__Actinomycetota; c__Coriobacteriia; o__Coriobacteriales; f__Eggerthellaceae; g__Slackia
+SRR34514425	2.04	4.54	0.1	genus	Root; d__Bacteria; p__Actinomycetota; c__Coriobacteriia; o__Coriobacteriales; f__Eggerthellaceae; g__Ellagibacter
+SRR34514425	1.15	4.55	0.1	genus	Root; d__Bacteria; p__Actinomycetota; c__Coriobacteriia; o__Coriobacteriales; f__Eggerthellaceae; g__Senegalimassilia
+SRR34514425	0	0.51	0.01	genus	Root; d__Bacteria; p__Actinomycetota; c__Coriobacteriia; o__Coriobacteriales; f__Eggerthellaceae; g__CAJFUR01
+SRR34514425	0.78	1.44	0.03	genus	Root; d__Bacteria; p__Actinomycetota; c__Coriobacteriia; o__Coriobacteriales; f__Eggerthellaceae; g__UMGS1502
+SRR34514425	0.95	5.04	0.11	genus	Root; d__Bacteria; p__Actinomycetota; c__Coriobacteriia; o__Coriobacteriales; f__Atopobiaceae; g__Paratractidigestivibacter
+SRR34514425	88.66	88.66	1.87	genus	Root; d__Bacteria; p__Actinomycetota; c__Coriobacteriia; o__Coriobacteriales; f__Coriobacteriaceae; g__Collinsella
+SRR34514425	0	0.4	0.01	genus	Root; d__Bacteria; p__Actinomycetota; c__Coriobacteriia; o__Coriobacteriales; f__UMGS124; g__JAHZGC01
+SRR34514425	2.67	41.89	0.88	genus	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Bacteroidaceae; g__Phocaeicola
+SRR34514425	21.39	79.19	1.67	genus	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Bacteroidaceae; g__Bacteroides
+SRR34514425	7.53	382.86	8.08	genus	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Bacteroidaceae; g__Prevotella
+SRR34514425	4.71	52.51	1.11	genus	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Bacteroidaceae; g__Paraprevotella
+SRR34514425	0.88	24.27	0.51	genus	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Tannerellaceae; g__Parabacteroides
+SRR34514425	0	535.84	11.31	genus	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Rikenellaceae; g__Alistipes
+SRR34514425	0	2.56	0.05	genus	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Rikenellaceae; g__Tidjanibacter
+SRR34514425	0	38.75	0.82	genus	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Rikenellaceae; g__Alistipes_A
+SRR34514425	0	17.87	0.38	genus	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Marinifilaceae; g__Odoribacter
+SRR34514425	1.14	10.47	0.22	genus	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Marinifilaceae; g__Butyricimonas
+SRR34514425	0	2.66	0.06	genus	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Barnesiellaceae; g__Barnesiella
+SRR34514425	0.31	1.11	0.02	genus	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Coprobacteraceae; g__Coprobacter
+SRR34514425	0	13.45	0.28	genus	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__UBA11471; g__Caccoplasma
+SRR34514425	0	1.05	0.02	genus	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Marinilabiliaceae; g__W3P20-009
+SRR34514425	0	9.37	0.2	genus	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Flavobacteriales; f__UBA1820; g__Merdimorpha
+SRR34514425	16.21	178.1	3.76	genus	Root; d__Bacteria; p__Verrucomicrobiota; c__Verrucomicrobiia; o__Verrucomicrobiales; f__Akkermansiaceae; g__Akkermansia
+SRR34514425	0	5.68	0.12	genus	Root; d__Bacteria; p__Verrucomicrobiota; c__Verrucomicrobiia; o__Opitutales; f__Intestinicryptomonadaceae; g__Merdousia
+SRR34514425	0.09	16.21	0.34	genus	Root; d__Bacteria; p__Verrucomicrobiota; c__Lentisphaeria; o__Victivallales; f__Victivallaceae; g__Victivallis
+SRR34514425	0	3.65	0.08	genus	Root; d__Bacteria; p__Verrucomicrobiota; c__Lentisphaeria; o__Victivallales; f__UBA1829; g__UBA11452
+SRR34514425	0.11	4.06	0.09	genus	Root; d__Bacteria; p__Desulfobacterota; c__Desulfovibrionia; o__Desulfovibrionales; f__Desulfovibrionaceae; g__Bilophila
+SRR34514425	0	25.39	0.54	genus	Root; d__Bacteria; p__Desulfobacterota; c__Desulfovibrionia; o__Desulfovibrionales; f__Desulfovibrionaceae; g__Desulfovibrio
+SRR34514425	0	1.02	0.02	genus	Root; d__Bacteria; p__Desulfobacterota; c__Desulfovibrionia; o__Desulfovibrionales; f__Desulfovibrionaceae; g__Mailhella
+SRR34514425	1.8	33.35	0.7	genus	Root; d__Bacteria; p__Bacillota_I; c__Bacilli_A; o__Erysipelotrichales; f__Erysipelotrichaceae; g__Holdemanella
+SRR34514425	0.4	0.4	0.01	genus	Root; d__Bacteria; p__Bacillota_I; c__Bacilli_A; o__Erysipelotrichales; f__Erysipelotrichaceae; g__Holdemania
+SRR34514425	0	51.32	1.08	genus	Root; d__Bacteria; p__Bacillota_I; c__Bacilli_A; o__Erysipelotrichales; f__Coprobacillaceae; g__Catenibacterium
+SRR34514425	1.67	36.34	0.77	genus	Root; d__Bacteria; p__Bacillota_I; c__Bacilli_A; o__RF39; f__UBA660; g__CAG-582
+SRR34514425	2.83	20.44	0.43	genus	Root; d__Bacteria; p__Bacillota_I; c__Bacilli_A; o__RF39; f__UBA660; g__CAG-302
+SRR34514425	0	122.73	2.59	genus	Root; d__Bacteria; p__Bacillota_I; c__Bacilli_A; o__RF39; f__UBA660; g__CAG-533
+SRR34514425	5.73	81.34	1.72	genus	Root; d__Bacteria; p__Bacillota_I; c__Bacilli_A; o__RF39; f__UBA660; g__Onthocola_B
+SRR34514425	1.74	17.33	0.37	genus	Root; d__Bacteria; p__Bacillota_I; c__Bacilli_A; o__RF39; f__UBA660; g__CAG-433
+SRR34514425	1.4	15.58	0.33	genus	Root; d__Bacteria; p__Bacillota_I; c__Bacilli_A; o__RF39; f__UBA660; g__CAG-611
+SRR34514425	0	11.74	0.25	genus	Root; d__Bacteria; p__Bacillota_I; c__Bacilli_A; o__RF39; f__UBA660; g__CAG-1193
+SRR34514425	0	2.04	0.04	genus	Root; d__Bacteria; p__Bacillota_I; c__Bacilli_A; o__RF39; f__UBA660; g__Caccenecus
+SRR34514425	0	115.86	2.45	genus	Root; d__Bacteria; p__Bacillota_I; c__Bacilli_A; o__RF39; f__UBA660; g__CAG-877
+SRR34514425	1.05	3.23	0.07	genus	Root; d__Bacteria; p__Bacillota_I; c__Bacilli_A; o__RF39; f__UBA660; g__JAEDJI01
+SRR34514425	0	9.52	0.2	genus	Root; d__Bacteria; p__Bacillota_I; c__Bacilli_A; o__RFN20; f__CAG-631; g__Caccosoma
+SRR34514425	0	2.32	0.05	genus	Root; d__Bacteria; p__Bacillota_I; c__Bacilli_A; o__RFN20; f__CAG-449; g__CAG-449
+SRR34514425	0	24.35	0.51	genus	Root; d__Bacteria; p__Bacillota_I; c__Bacilli_A; o__ML615J-28; f__CAG-313; g__CAG-313
+SRR34514425	0	12.28	0.26	genus	Root; d__Bacteria; p__Cyanobacteriota; c__Vampirovibrionia; o__Gastranaerophilales; f__Gastranaerophilaceae; g__CAG-196
+SRR34514425	0	7.96	0.17	genus	Root; d__Bacteria; p__Cyanobacteriota; c__Vampirovibrionia; o__Gastranaerophilales; f__Gastranaerophilaceae; g__Scatenecus
+SRR34514425	1.66	16.17	0.34	genus	Root; d__Archaea; p__Methanobacteriota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanocatella
+SRR34514425	0	5.19	0.11	genus	Root; d__Archaea; p__Methanobacteriota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanosphaera
+SRR34514425	0.64	0.64	0.01	species	Root; d__Bacteria; p__Pseudomonadota; c__Gammaproteobacteria; o__Burkholderiales; f__Burkholderiaceae_F; g__Sutterella; s__Sutterella wadsworthensis
+SRR34514425	12.02	12.02	0.25	species	Root; d__Bacteria; p__Pseudomonadota; c__Gammaproteobacteria; o__Burkholderiales; f__Burkholderiaceae_F; g__Sutterella; s__Sutterella seckii
+SRR34514425	0.77	0.77	0.02	species	Root; d__Bacteria; p__Pseudomonadota; c__Gammaproteobacteria; o__Burkholderiales; f__Burkholderiaceae_F; g__Sutterella; s__Sutterella sp934255515
+SRR34514425	4.85	4.85	0.1	species	Root; d__Bacteria; p__Pseudomonadota; c__Gammaproteobacteria; o__Burkholderiales; f__Burkholderiaceae_F; g__Duodenibacillus; s__Duodenibacillus intestinigallinarum
+SRR34514425	1.17	1.17	0.02	species	Root; d__Bacteria; p__Pseudomonadota; c__Gammaproteobacteria; o__Burkholderiales; f__Burkholderiaceae_F; g__Duodenibacillus; s__Duodenibacillus sp944390715
+SRR34514425	14.76	14.76	0.31	species	Root; d__Bacteria; p__Pseudomonadota; c__Alphaproteobacteria; o__RF32; f__CAG-239; g__Scatacola_A; s__Scatacola_A faecigallinarum
+SRR34514425	20.63	20.63	0.44	species	Root; d__Bacteria; p__Pseudomonadota; c__Alphaproteobacteria; o__RF32; f__CAG-239; g__Scatocola; s__Scatocola faecipullorum
+SRR34514425	13.02	13.02	0.27	species	Root; d__Bacteria; p__Pseudomonadota; c__Alphaproteobacteria; o__RF32; f__CAG-239; g__JAFUYI01; s__JAFUYI01 sp001917175
+SRR34514425	2.59	2.59	0.05	species	Root; d__Bacteria; p__Bacillota; c__Bacilli; o__Lactobacillales; f__Streptococcaceae; g__Streptococcus; s__Streptococcus thermophilus
+SRR34514425	8.8	8.8	0.19	species	Root; d__Bacteria; p__Bacillota; c__Bacilli; o__Lactobacillales; f__Streptococcaceae; g__Streptococcus; s__Streptococcus salivarius_D
+SRR34514425	0.71	0.71	0.01	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Peptostreptococcales; f__Peptostreptococcaceae; g__Intestinibacter; s__Intestinibacter bartlettii
+SRR34514425	1.75	1.75	0.04	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Peptostreptococcales; f__Peptostreptococcaceae; g__Romboutsia; s__Romboutsia timonensis
+SRR34514425	1.68	1.68	0.04	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Peptostreptococcales; f__Anaerovoracaceae; g__Lentihominibacter; s__Lentihominibacter faecis
+SRR34514425	0.87	0.87	0.02	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Peptostreptococcales; f__Anaerovoracaceae; g__UMGS973; s__UMGS973 sp900547295
+SRR34514425	0.86	0.86	0.02	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Peptostreptococcales; f__Anaerovoracaceae; g__CAG-238; s__CAG-238 sp000435615
+SRR34514425	1.61	1.61	0.03	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Peptostreptococcales; f__Anaerovoracaceae; g__CAG-238; s__CAG-238 sp900551415
+SRR34514425	1.5	1.5	0.03	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Peptostreptococcales; f__Anaerovoracaceae; g__CAG-238; s__CAG-238 sp900542245
+SRR34514425	1.08	1.08	0.02	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Peptostreptococcales; f__Anaerovoracaceae; g__CAKQOE01; s__CAKQOE01 sp934255545
+SRR34514425	0.65	0.65	0.01	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Clostridiales; f__Clostridiaceae; g__Clostridium; s__Clostridium sp000435835
+SRR34514425	2.07	2.07	0.04	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Clostridiales; f__Clostridiaceae; g__Clostridium; s__Clostridium lentum
+SRR34514425	0.85	0.85	0.02	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Clostridiales; f__Clostridiaceae; g__Clostridium; s__Clostridium sp024409095
+SRR34514425	13.81	13.81	0.29	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Roseburia; s__Roseburia rectalis
+SRR34514425	9.74	9.74	0.21	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Roseburia; s__Roseburia faecis
+SRR34514425	5.25	5.25	0.11	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Roseburia; s__Roseburia inulinivorans
+SRR34514425	24.66	24.66	0.52	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Roseburia; s__Roseburia hominis
+SRR34514425	7.0	7.0	0.15	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Roseburia; s__Roseburia sp902781225
+SRR34514425	43.36	43.36	0.92	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Blautia_A; s__Blautia_A wexlerae
+SRR34514425	7.23	7.23	0.15	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Blautia_A; s__Blautia_A faecis
+SRR34514425	11.28	11.28	0.24	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Blautia_A; s__Blautia_A sp900066335
+SRR34514425	1.6	1.6	0.03	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Blautia_A; s__Blautia_A ammoniilytica
+SRR34514425	15.63	15.63	0.33	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Fusicatenibacter; s__Fusicatenibacter saccharivorans
+SRR34514425	4.49	4.49	0.09	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Suilimivivens; s__Suilimivivens aceti
+SRR34514425	2.34	2.34	0.05	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Suilimivivens; s__Suilimivivens sp000438155
+SRR34514425	7.6	7.6	0.16	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Anaerostipes; s__Anaerostipes hadrus
+SRR34514425	0.66	0.66	0.01	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Anaerostipes; s__Anaerostipes amylophilus
+SRR34514425	29.75	29.75	0.63	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Acetatifactor; s__Acetatifactor acetigignens
+SRR34514425	0.63	0.63	0.01	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Acetatifactor; s__Acetatifactor sp900755865
+SRR34514425	2.41	2.41	0.05	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Hominiventricola; s__Hominiventricola aquisgranensis
+SRR34514425	2.03	2.03	0.04	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Hominiventricola; s__Hominiventricola filiformis
+SRR34514425	0.69	0.69	0.01	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Hominiventricola; s__Hominiventricola sp018223365
+SRR34514425	33.7	33.7	0.71	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Mediterraneibacter; s__Mediterraneibacter faecis
+SRR34514425	2.38	2.38	0.05	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Mediterraneibacter; s__Mediterraneibacter torques
+SRR34514425	5.82	5.82	0.12	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Lachnospira; s__Lachnospira sp000436475
+SRR34514425	4.18	4.18	0.09	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Lachnospira; s__Lachnospira sp003451515
+SRR34514425	4.08	4.08	0.09	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Lachnospira; s__Lachnospira sp019424245
+SRR34514425	2.36	2.36	0.05	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Lachnospira; s__Lachnospira sp002435585
+SRR34514425	49.3	49.3	1.04	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Coprococcus_C; s__Coprococcus_C hominis
+SRR34514425	37.99	37.99	0.8	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Dorea_A; s__Dorea_A longicatena
+SRR34514425	4.12	4.12	0.09	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Dorea_A; s__Dorea_A amylophila
+SRR34514425	7.73	7.73	0.16	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Allocoprococcus; s__Allocoprococcus comes
+SRR34514425	5.39	5.39	0.11	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Otoolea; s__Otoolea fessa
+SRR34514425	0.95	0.95	0.02	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Gallintestinimicrobium; s__Gallintestinimicrobium propionicum
+SRR34514425	1.07	1.07	0.02	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Enterocloster; s__Enterocloster sp900541315
+SRR34514425	5.98	5.98	0.13	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Eubacterium_F; s__Eubacterium_F sp003491505
+SRR34514425	1.43	1.43	0.03	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Eubacterium_F; s__Eubacterium_F sp000433735
+SRR34514425	0.74	0.74	0.02	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Eubacterium_F; s__Eubacterium_F sp937902905
+SRR34514425	1.19	1.19	0.03	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Eubacterium_F; s__Eubacterium_F sp934322085
+SRR34514425	1.71	1.71	0.04	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__UBA3402; s__UBA3402 sp003478355
+SRR34514425	7.25	7.25	0.15	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Dorea; s__Dorea formicigenerans
+SRR34514425	2.24	2.24	0.05	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Hominisplanchenecus; s__Hominisplanchenecus faecis
+SRR34514425	23.59	23.59	0.5	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Anaerobutyricum; s__Anaerobutyricum hallii
+SRR34514425	7.25	7.25	0.15	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Anthropogastromicrobium; s__Anthropogastromicrobium aceti
+SRR34514425	1.61	1.61	0.03	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Anthropogastromicrobium; s__Anthropogastromicrobium sp934292725
+SRR34514425	2.31	2.31	0.05	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Pilosibacter; s__Pilosibacter sp900066785
+SRR34514425	6.64	6.64	0.14	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Oliverpabstia; s__Oliverpabstia intestinalis
+SRR34514425	0.72	0.72	0.02	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Oliverpabstia; s__Oliverpabstia faecicola
+SRR34514425	4.04	4.04	0.09	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Oliverpabstia; s__Oliverpabstia tarda
+SRR34514425	3.67	3.67	0.08	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Coprococcus_A; s__Coprococcus_A intestinihominis
+SRR34514425	2.6	2.6	0.05	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Coprococcus_A; s__Coprococcus_A catus
+SRR34514425	3.85	3.85	0.08	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Butyribacter; s__Butyribacter sp003529475
+SRR34514425	1.89	1.89	0.04	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Maccoyibacter; s__Maccoyibacter intestinihominis
+SRR34514425	1.06	1.06	0.02	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Laedolimicola; s__Laedolimicola ammoniilytica
+SRR34514425	1.12	1.12	0.02	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__CAG-194; s__CAG-194 sp000432915
+SRR34514425	6.12	6.12	0.13	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Eubacterium_I; s__Eubacterium_I ramulus
+SRR34514425	1.0	1.0	0.02	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Eubacterium_I; s__Eubacterium_I ramulus_A
+SRR34514425	1.36	1.36	0.03	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Eubacterium_I; s__Eubacterium_I sp900546495
+SRR34514425	6.69	6.69	0.14	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Eubacterium_U; s__Eubacterium_U album
+SRR34514425	1.36	1.36	0.03	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Limivivens; s__Limivivens faecihominis
+SRR34514425	0.85	0.85	0.02	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Claveliimonas; s__Claveliimonas ammoniilytica
+SRR34514425	0.84	0.84	0.02	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Pararoseburia; s__Pararoseburia lenta
+SRR34514425	4.6	4.6	0.1	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Eubacterium_G; s__Eubacterium_G segne
+SRR34514425	3.44	3.44	0.07	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Choladousia; s__Choladousia sp902363135
+SRR34514425	1.59	1.59	0.03	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Choladousia; s__Choladousia sp902363665
+SRR34514425	0.48	0.48	0.01	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Brotaphodocola; s__Brotaphodocola sp003480315
+SRR34514425	5.1	5.1	0.11	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__UBA4285; s__UBA4285 sp900545225
+SRR34514425	0.9	0.9	0.02	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Lientehia; s__Lientehia sp934351765
+SRR34514425	1.91	1.91	0.04	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Hominifimenecus; s__Hominifimenecus microfluidus
+SRR34514425	0.63	0.63	0.01	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Marvinbryantia; s__Marvinbryantia sp900544685
+SRR34514425	0.52	0.52	0.01	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__JAGTTR01; s__JAGTTR01 sp018223385
+SRR34514425	1.15	1.15	0.02	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__V9D3004; s__V9D3004 sp900760345
+SRR34514425	0.45	0.45	0.01	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__CAKRHR01; s__CAKRHR01 sp934339005
+SRR34514425	9.81	9.81	0.21	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Anaerotignaceae; g__Anaerotignum_A; s__Anaerotignum_A faecicola
+SRR34514425	0.6	0.6	0.01	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Lachnospirales; f__Anaerotignaceae; g__Metalachnospira; s__Metalachnospira sp900553995
+SRR34514425	16.32	16.32	0.34	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Ruminococcaceae; g__Gemmiger; s__Gemmiger qucibialis
+SRR34514425	11.63	11.63	0.25	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Ruminococcaceae; g__Gemmiger; s__Gemmiger formicilis
+SRR34514425	5.88	5.88	0.12	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Ruminococcaceae; g__Gemmiger; s__Gemmiger sp900539695
+SRR34514425	5.17	5.17	0.11	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Ruminococcaceae; g__Gemmiger; s__Gemmiger sp900540775
+SRR34514425	5.14	5.14	0.11	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Ruminococcaceae; g__Gemmiger; s__Gemmiger sp900540595
+SRR34514425	12.31	12.31	0.26	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Ruminococcaceae; g__Hominimerdicola; s__Hominimerdicola aceti
+SRR34514425	46.91	46.91	0.99	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Ruminococcaceae; g__Faecalibacterium; s__Faecalibacterium prausnitzii
+SRR34514425	43.68	43.68	0.92	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Ruminococcaceae; g__Faecalibacterium; s__Faecalibacterium duncaniae
+SRR34514425	16.81	16.81	0.35	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Ruminococcaceae; g__Faecalibacterium; s__Faecalibacterium sp900539945
+SRR34514425	122.76	122.76	2.59	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Ruminococcaceae; g__Faecalibacterium; s__Faecalibacterium hattorii
+SRR34514425	5.03	5.03	0.11	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Ruminococcaceae; g__Faecalibacterium; s__Faecalibacterium prausnitzii_I
+SRR34514425	190.07	190.07	4.01	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Ruminococcaceae; g__Ruminiclostridium_E; s__Ruminiclostridium_E siraeum
+SRR34514425	12.58	12.58	0.27	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Ruminococcaceae; g__Ruminiclostridium_E; s__Ruminiclostridium_E sp900539195
+SRR34514425	2.06	2.06	0.04	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Ruminococcaceae; g__Ruthenibacterium; s__Ruthenibacterium lactatiformans
+SRR34514425	4.96	4.96	0.1	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Ruminococcaceae; g__Porcipelethomonas; s__Porcipelethomonas ammoniilytica
+SRR34514425	31.96	31.96	0.67	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Ruminococcaceae; g__Angelakisella; s__Angelakisella sp900547385
+SRR34514425	0.97	0.97	0.02	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Ruminococcaceae; g__JAFBIO01; s__JAFBIO01 sp949295465
+SRR34514425	0.93	0.93	0.02	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Ruminococcaceae; g__SFJ001; s__SFJ001 sp004555865
+SRR34514425	1.54	1.54	0.03	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Ruminococcaceae; g__Avimicrobium; s__Avimicrobium caecorum
+SRR34514425	1.19	1.19	0.03	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Ruminococcaceae; g__UBA3818; s__UBA3818 sp900557155
+SRR34514425	6.52	6.52	0.14	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Ruminococcaceae; g__HGM13222; s__HGM13222 sp900757485
+SRR34514425	96.07	96.07	2.03	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Acutalibacteraceae; g__Ruminococcoides; s__Ruminococcoides intestinale
+SRR34514425	22.85	22.85	0.48	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Acutalibacteraceae; g__Ruminococcoides; s__Ruminococcoides intestinale_A
+SRR34514425	7.96	7.96	0.17	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Acutalibacteraceae; g__Ruminococcoides; s__Ruminococcoides sp905215855
+SRR34514425	8.9	8.9	0.19	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Acutalibacteraceae; g__Hominenteromicrobium; s__Hominenteromicrobium mulieris
+SRR34514425	5.91	5.91	0.12	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Acutalibacteraceae; g__CAG-217; s__CAG-217 sp000436335
+SRR34514425	4.15	4.15	0.09	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Acutalibacteraceae; g__CAG-217; s__CAG-217 sp963638105
+SRR34514425	33.24	33.24	0.7	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Acutalibacteraceae; g__Eubacterium_R; s__Eubacterium_R sp000436835
+SRR34514425	81.03	81.03	1.71	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Acutalibacteraceae; g__CAG-177; s__CAG-177 sp000431775
+SRR34514425	4.54	4.54	0.1	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Acutalibacteraceae; g__CAG-488; s__CAG-488 sp000434055
+SRR34514425	0.47	0.47	0.01	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Acutalibacteraceae; g__UBA737; s__UBA737 sp900549055
+SRR34514425	0.62	0.62	0.01	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Acutalibacteraceae; g__Caccousia; s__Caccousia sp900752115
+SRR34514425	0.63	0.63	0.01	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Acutalibacteraceae; g__Heritagella; s__Heritagella sp022767925
+SRR34514425	1.65	1.65	0.03	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Acutalibacteraceae; g__Yeguia; s__Yeguia hominis
+SRR34514425	14.87	14.87	0.31	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Oscillospiraceae; g__Hominicoprocola; s__Hominicoprocola sp900317525
+SRR34514425	17.62	17.62	0.37	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Oscillospiraceae; g__Hominicoprocola; s__Hominicoprocola sp934835795
+SRR34514425	10.92	10.92	0.23	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Oscillospiraceae; g__Hominicoprocola; s__Hominicoprocola sp003522105
+SRR34514425	14.95	14.95	0.32	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Oscillospiraceae; g__Hominicoprocola; s__Hominicoprocola sp900556145
+SRR34514425	0.54	0.54	0.01	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Oscillospiraceae; g__Flavonifractor; s__Flavonifractor plautii
+SRR34514425	12.82	12.82	0.27	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Oscillospiraceae; g__Vescimonas; s__Vescimonas sanitatis
+SRR34514425	8.4	8.4	0.18	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Oscillospiraceae; g__Vescimonas; s__Vescimonas sp900545585
+SRR34514425	3.5	3.5	0.07	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Oscillospiraceae; g__Vescimonas; s__Vescimonas sp900552475
+SRR34514425	8.51	8.51	0.18	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Oscillospiraceae; g__Vescimonas; s__Vescimonas sp900548615
+SRR34514425	2.37	2.37	0.05	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Oscillospiraceae; g__Vescimonas; s__Vescimonas fastidiosa
+SRR34514425	15.74	15.74	0.33	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Oscillospiraceae; g__CAG-103; s__CAG-103 sp900543625
+SRR34514425	12.51	12.51	0.26	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Oscillospiraceae; g__CAG-103; s__CAG-103 sp934589185
+SRR34514425	6.32	6.32	0.13	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Oscillospiraceae; g__Oscillibacter; s__Oscillibacter segnis
+SRR34514425	3.94	3.94	0.08	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Oscillospiraceae; g__Oscillibacter; s__Oscillibacter welbionis
+SRR34514425	0.71	0.71	0.01	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Oscillospiraceae; g__Oscillibacter; s__Oscillibacter faecalis_A
+SRR34514425	1.37	1.37	0.03	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Oscillospiraceae; g__Oscillibacter; s__Oscillibacter sp944387035
+SRR34514425	22.01	22.01	0.46	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Oscillospiraceae; g__CAG-170; s__CAG-170 sp000432135
+SRR34514425	1.22	1.22	0.03	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Oscillospiraceae; g__CAG-170; s__CAG-170 sp002404795
+SRR34514425	14.26	14.26	0.3	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Oscillospiraceae; g__CAG-170; s__CAG-170 sp900545925
+SRR34514425	1.63	1.63	0.03	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Oscillospiraceae; g__CAG-170; s__CAG-170 sp003516765
+SRR34514425	4.91	4.91	0.1	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Oscillospiraceae; g__CAG-170; s__CAG-170 sp000436735
+SRR34514425	29.12	29.12	0.61	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Oscillospiraceae; g__Faecousia; s__Faecousia sp000434635
+SRR34514425	2.84	2.84	0.06	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Oscillospiraceae; g__Faecousia; s__Faecousia sp000435995
+SRR34514425	3.17	3.17	0.07	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Oscillospiraceae; g__Faecousia; s__Faecousia sp900546075
+SRR34514425	4.97	4.97	0.1	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Oscillospiraceae; g__Lawsonibacter; s__Lawsonibacter asaccharolyticus
+SRR34514425	1.65	1.65	0.03	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Oscillospiraceae; g__Lawsonibacter; s__Lawsonibacter faecis_A
+SRR34514425	5.88	5.88	0.12	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Oscillospiraceae; g__Evtepia; s__Evtepia sp004556345
+SRR34514425	11.59	11.59	0.24	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Oscillospiraceae; g__Limivicinus; s__Limivicinus sp900547315
+SRR34514425	12.04	12.04	0.25	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Oscillospiraceae; g__Limivicinus; s__Limivicinus sp003150355
+SRR34514425	1.38	1.38	0.03	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Oscillospiraceae; g__F23-B02; s__F23-B02 sp001916715
+SRR34514425	2.5	2.5	0.05	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Oscillospiraceae; g__F23-B02; s__F23-B02 sp002472405
+SRR34514425	0.71	0.71	0.01	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Oscillospiraceae; g__F23-B02; s__F23-B02 sp900545805
+SRR34514425	0.43	0.43	0.01	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Oscillospiraceae; g__Lawsonibacter_A; s__Lawsonibacter_A hominis
+SRR34514425	0.85	0.85	0.02	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Oscillospiraceae; g__Onthomonas; s__Onthomonas sp934597165
+SRR34514425	2.99	2.99	0.06	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Oscillospiraceae; g__Onthomonas; s__Onthomonas sp900752305
+SRR34514425	0.57	0.57	0.01	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Oscillospiraceae; g__CALXCR01; s__CALXCR01 sp944386855
+SRR34514425	1.27	1.27	0.03	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Oscillospiraceae; g__HGM13006; s__HGM13006 sp900757695
+SRR34514425	1.99	1.99	0.04	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Oscillospiraceae; g__Pseudoscillospira; s__Pseudoscillospira sp018369915
+SRR34514425	1.06	1.06	0.02	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Oscillospiraceae; g__SVMC01; s__SVMC01 sp958436045
+SRR34514425	0.42	0.42	0.01	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Oscillospiraceae; g__SVMC01; s__SVMC01 sp934615645
+SRR34514425	11.01	11.01	0.23	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Butyricicoccaceae; g__Agathobaculum; s__Agathobaculum butyriciproducens
+SRR34514425	1.16	1.16	0.02	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Butyricicoccaceae; g__RGIG1902; s__RGIG1902 sp944375715
+SRR34514425	0.51	0.51	0.01	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__CAG-272; g__CAKTAA01; s__CAKTAA01 sp934526185
+SRR34514425	12.87	12.87	0.27	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__CAG-272; g__UBA1740; s__UBA1740 sp963611795
+SRR34514425	3.66	3.66	0.08	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__CAG-272; g__UBA1740; s__UBA1740 sp004558975
+SRR34514425	7.74	7.74	0.16	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__CAG-272; g__UBA11512; s__UBA11512 sp003522145
+SRR34514425	8.42	8.42	0.18	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__CAG-272; g__Colimorpha_A; s__Colimorpha_A sp000433515
+SRR34514425	1.89	1.89	0.04	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__CAG-272; g__UMGS1696; s__UMGS1696 sp900554225
+SRR34514425	1.02	1.02	0.02	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__CAG-272; g__Flemingiibacterium; s__Flemingiibacterium sp900546315
+SRR34514425	1.28	1.28	0.03	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__CAG-272; g__UMGS1865; s__UMGS1865 sp900555785
+SRR34514425	0.59	0.59	0.01	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__CAG-272; g__UMGS1865; s__UMGS1865 sp944391805
+SRR34514425	7.3	7.3	0.15	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__CAG-272; g__CAG-448; s__CAG-448 sp000433415
+SRR34514425	0.96	0.96	0.02	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__CAG-272; g__UMGS911; s__UMGS911 sp003343545
+SRR34514425	0.7	0.7	0.01	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__UBA644; g__UBA644; s__UBA644 sp900547165
+SRR34514425	2.7	2.7	0.06	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__CAG-382; g__Woodwardiibium; s__Woodwardiibium sp900760275
+SRR34514425	2.61	2.61	0.06	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__CAG-382; g__UMGS882; s__UMGS882 sp900546385
+SRR34514425	2.86	2.86	0.06	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__Feifaniaceae; g__Galloscillospira; s__Galloscillospira excrementipullorum
+SRR34514425	1.2	1.2	0.03	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__UMGS1783; g__UMGS1783; s__UMGS1783 sp900555065
+SRR34514425	2.07	2.07	0.04	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Oscillospirales; f__QAKW01; g__RGIG9041; s__RGIG9041 sp902492505
+SRR34514425	6.34	6.34	0.13	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__Aristaeellaceae; g__UBA11524; s__UBA11524 sp000437595
+SRR34514425	6.04	6.04	0.13	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__Aristaeellaceae; g__Ventricola; s__Ventricola sp900542395
+SRR34514425	4.26	4.26	0.09	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__Aristaeellaceae; g__Ventricola; s__Ventricola sp900542445
+SRR34514425	2.71	2.71	0.06	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__Aristaeellaceae; g__Ventricola; s__Ventricola sp900548125
+SRR34514425	0.53	0.53	0.01	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__Aristaeellaceae; g__Limiplasma; s__Limiplasma merdipullorum
+SRR34514425	1.01	1.01	0.02	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__Aristaeellaceae; g__Limiplasma; s__Limiplasma sp900548145
+SRR34514425	4.4	4.4	0.09	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__Aristaeellaceae; g__SFMI01; s__SFMI01 sp004556155
+SRR34514425	0.46	0.46	0.01	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__Aristaeellaceae; g__Egerieenecus; s__Egerieenecus sp900553315
+SRR34514425	1.53	1.53	0.03	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__Aristaeellaceae; g__Fimadaptatus; s__Fimadaptatus sp948467645
+SRR34514425	1.18	1.18	0.02	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__Aristaeellaceae; g__Faecivicinus; s__Faecivicinus sp900553265
+SRR34514425	0.68	0.68	0.01	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__Aristaeellaceae; g__RUG11247; s__RUG11247 sp902767315
+SRR34514425	0.62	0.62	0.01	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__Aristaeellaceae; g__RUG563; s__RUG563 sp934630705
+SRR34514425	1.6	1.6	0.03	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__Aristaeellaceae; g__Aphodomonas; s__Aphodomonas sp934615235
+SRR34514425	1.99	1.99	0.04	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__Borkfalkiaceae; g__Scatosoma; s__Scatosoma sp900542935
+SRR34514425	2.54	2.54	0.05	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__Borkfalkiaceae; g__UMGS775; s__UMGS775 sp944363555
+SRR34514425	15.95	15.95	0.34	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__CAG-138; g__PeH17; s__PeH17 sp000435055
+SRR34514425	1.35	1.35	0.03	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__CAG-138; g__PeH17; s__PeH17 sp937894955
+SRR34514425	37.37	37.37	0.79	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__CAG-138; g__SFEL01; s__SFEL01 sp004557245
+SRR34514425	0.8	0.8	0.02	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__CAG-138; g__SFEL01; s__SFEL01 sp934633985
+SRR34514425	1.65	1.65	0.03	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__CAG-138; g__Phil1; s__Phil1 sp001940855
+SRR34514425	41.57	41.57	0.88	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__CAG-138; g__UBA1685; s__UBA1685 sp002320595
+SRR34514425	2.22	2.22	0.05	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__CAG-138; g__Aphodomorpha; s__Aphodomorpha intestinavium
+SRR34514425	0.85	0.85	0.02	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__CAG-917; g__CAG-349; s__CAG-349 sp003539515
+SRR34514425	55.91	55.91	1.18	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__CAG-314; g__CAG-314; s__CAG-314 sp000437915
+SRR34514425	0.44	0.44	0.01	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__CAG-314; g__Heteroclostridium; s__Heteroclostridium sp944336125
+SRR34514425	5.67	5.67	0.12	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__Pumilibacteraceae; g__Neoclostridium; s__Neoclostridium roslinense
+SRR34514425	0.9	0.9	0.02	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__Christensenellaceae; g__QANA01; s__QANA01 sp900554725
+SRR34514425	1.55	1.55	0.03	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__Christensenellaceae; g__QANA01; s__QANA01 sp948468985
+SRR34514425	2.71	2.71	0.06	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__UBA1750; g__CALWRM01; s__CALWRM01 sp944383925
+SRR34514425	1.02	1.02	0.02	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__QALW01; g__UMGS1338; s__UMGS1338 sp900550805
+SRR34514425	0.72	0.72	0.02	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__QALW01; g__UMGS1338; s__UMGS1338 sp934465535
+SRR34514425	0.4	0.4	0.01	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__QAND01; g__QAND01; s__QAND01 sp003150225
+SRR34514425	2.27	2.27	0.05	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__Christensenellales; f__HGM11417; g__HGM11417; s__HGM11417 sp900761895
+SRR34514425	4.36	4.36	0.09	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__UBA1381; f__UBA1381; g__Hominilimicola; s__Hominilimicola fabiformis
+SRR34514425	0.9	0.9	0.02	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__TANB77; f__CAG-508; g__CAG-269; s__CAG-269 sp934121905
+SRR34514425	3.73	3.73	0.08	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__TANB77; f__CAG-508; g__CAG-269; s__CAG-269 sp900556345
+SRR34514425	36.02	36.02	0.76	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__TANB77; f__CAG-508; g__DNVW01; s__DNVW01 sp003534295
+SRR34514425	11.29	11.29	0.24	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__TANB77; f__CAG-508; g__CAG-273; s__CAG-273 sp000438355
+SRR34514425	2.38	2.38	0.05	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__TANB77; f__CAG-508; g__CAG-793; s__CAG-793 sp900557475
+SRR34514425	1.08	1.08	0.02	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__TANB77; f__CAG-508; g__CALXVA01; s__CALXVA01 sp019419955
+SRR34514425	12.08	12.08	0.25	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__TANB77; f__CAG-465; g__CAG-465; s__CAG-465 sp000433335
+SRR34514425	0.85	0.85	0.02	species	Root; d__Bacteria; p__Bacillota; c__Clostridia; o__UMGS1810; f__UMGS1810; g__RGIG4708; s__RGIG4708 sp934454585
+SRR34514425	0.71	0.71	0.01	species	Root; d__Bacteria; p__Bacillota; c__Negativicutes; o__Acidaminococcales; f__Acidaminococcaceae; g__Phascolarctobacterium; s__Phascolarctobacterium faecium
+SRR34514425	1.95	1.95	0.04	species	Root; d__Bacteria; p__Bacillota; c__Negativicutes; o__Acidaminococcales; f__Acidaminococcaceae; g__Acidaminococcus; s__Acidaminococcus intestini
+SRR34514425	64.46	64.46	1.36	species	Root; d__Bacteria; p__Bacillota; c__Negativicutes; o__Acidaminococcales; f__Acidaminococcaceae; g__Fusicatenibacter_A; s__Fusicatenibacter_A intestinipullorum
+SRR34514425	9.25	9.25	0.2	species	Root; d__Bacteria; p__Bacillota; c__Negativicutes; o__Veillonellales; f__Dialisteraceae; g__Dialister; s__Dialister hominis
+SRR34514425	0.76	0.76	0.02	species	Root; d__Bacteria; p__Bacillota; c__Negativicutes; o__Veillonellales; f__Dialisteraceae; g__Dialister; s__Dialister sp025992895
+SRR34514425	0.52	0.52	0.01	species	Root; d__Bacteria; p__Bacillota; c__Negativicutes; o__Veillonellales; f__Dialisteraceae; g__Allisonella; s__Allisonella histaminiformans
+SRR34514425	0.89	0.89	0.02	species	Root; d__Bacteria; p__Bacillota; c__DTU025; o__DTU025; f__HGM14224; g__HGM14224; s__HGM14224 sp900761905
+SRR34514425	12.1	12.1	0.26	species	Root; d__Bacteria; p__Actinomycetota; c__Actinomycetes; o__Actinomycetales; f__Bifidobacteriaceae; g__Bifidobacterium; s__Bifidobacterium adolescentis
+SRR34514425	7.38	7.38	0.16	species	Root; d__Bacteria; p__Actinomycetota; c__Actinomycetes; o__Actinomycetales; f__Bifidobacteriaceae; g__Bifidobacterium; s__Bifidobacterium sp959020155
+SRR34514425	1.01	1.01	0.02	species	Root; d__Bacteria; p__Actinomycetota; c__Actinomycetes; o__Actinomycetales; f__Bifidobacteriaceae; g__Bifidobacterium; s__Bifidobacterium ruminantium
+SRR34514425	0.65	0.65	0.01	species	Root; d__Bacteria; p__Actinomycetota; c__Actinomycetes; o__Actinomycetales; f__Actinomycetaceae; g__Pauljensenia; s__Pauljensenia sp902373545
+SRR34514425	0.43	0.43	0.01	species	Root; d__Bacteria; p__Actinomycetota; c__Actinomycetes; o__Actinomycetales; f__Actinomycetaceae; g__Pauljensenia; s__Pauljensenia sp958349165
+SRR34514425	1.15	1.15	0.02	species	Root; d__Bacteria; p__Actinomycetota; c__Coriobacteriia; o__Coriobacteriales; f__Eggerthellaceae; g__Anaerotardibacter; s__Anaerotardibacter sp000436075
+SRR34514425	7.59	7.59	0.16	species	Root; d__Bacteria; p__Actinomycetota; c__Coriobacteriia; o__Coriobacteriales; f__Eggerthellaceae; g__Anaerotardibacter; s__Anaerotardibacter sp900544455
+SRR34514425	0.71	0.71	0.01	species	Root; d__Bacteria; p__Actinomycetota; c__Coriobacteriia; o__Coriobacteriales; f__Eggerthellaceae; g__Anaerotardibacter; s__Anaerotardibacter sp934617065
+SRR34514425	3.04	3.04	0.06	species	Root; d__Bacteria; p__Actinomycetota; c__Coriobacteriia; o__Coriobacteriales; f__Eggerthellaceae; g__Slackia; s__Slackia isoflavoniconvertens
+SRR34514425	0.64	0.64	0.01	species	Root; d__Bacteria; p__Actinomycetota; c__Coriobacteriia; o__Coriobacteriales; f__Eggerthellaceae; g__Slackia; s__Slackia sp934646845
+SRR34514425	2.5	2.5	0.05	species	Root; d__Bacteria; p__Actinomycetota; c__Coriobacteriia; o__Coriobacteriales; f__Eggerthellaceae; g__Ellagibacter; s__Ellagibacter isourolithinifaciens
+SRR34514425	0.7	0.7	0.01	species	Root; d__Bacteria; p__Actinomycetota; c__Coriobacteriia; o__Coriobacteriales; f__Eggerthellaceae; g__Senegalimassilia; s__Senegalimassilia anaerobia
+SRR34514425	0.53	0.53	0.01	species	Root; d__Bacteria; p__Actinomycetota; c__Coriobacteriia; o__Coriobacteriales; f__Eggerthellaceae; g__Senegalimassilia; s__Senegalimassilia sp003474385
+SRR34514425	2.17	2.17	0.05	species	Root; d__Bacteria; p__Actinomycetota; c__Coriobacteriia; o__Coriobacteriales; f__Eggerthellaceae; g__Senegalimassilia; s__Senegalimassilia sp934630535
+SRR34514425	0.51	0.51	0.01	species	Root; d__Bacteria; p__Actinomycetota; c__Coriobacteriia; o__Coriobacteriales; f__Eggerthellaceae; g__CAJFUR01; s__CAJFUR01 sp904420575
+SRR34514425	0.66	0.66	0.01	species	Root; d__Bacteria; p__Actinomycetota; c__Coriobacteriia; o__Coriobacteriales; f__Eggerthellaceae; g__UMGS1502; s__UMGS1502 sp900552365
+SRR34514425	4.09	4.09	0.09	species	Root; d__Bacteria; p__Actinomycetota; c__Coriobacteriia; o__Coriobacteriales; f__Atopobiaceae; g__Paratractidigestivibacter; s__Paratractidigestivibacter faecalis
+SRR34514425	0.4	0.4	0.01	species	Root; d__Bacteria; p__Actinomycetota; c__Coriobacteriia; o__Coriobacteriales; f__UMGS124; g__JAHZGC01; s__JAHZGC01 sp019421015
+SRR34514425	17.78	17.78	0.38	species	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Bacteroidaceae; g__Phocaeicola; s__Phocaeicola vulgatus
+SRR34514425	4.4	4.4	0.09	species	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Bacteroidaceae; g__Phocaeicola; s__Phocaeicola dorei
+SRR34514425	3.42	3.42	0.07	species	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Bacteroidaceae; g__Phocaeicola; s__Phocaeicola plebeius_A
+SRR34514425	8.63	8.63	0.18	species	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Bacteroidaceae; g__Phocaeicola; s__Phocaeicola coprophilus
+SRR34514425	4.99	4.99	0.11	species	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Bacteroidaceae; g__Phocaeicola; s__Phocaeicola plebeius
+SRR34514425	22.08	22.08	0.47	species	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Bacteroidaceae; g__Bacteroides; s__Bacteroides uniformis
+SRR34514425	20.85	20.85	0.44	species	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Bacteroidaceae; g__Bacteroides; s__Bacteroides caccae
+SRR34514425	14.87	14.87	0.31	species	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Bacteroidaceae; g__Bacteroides; s__Bacteroides stercoris
+SRR34514425	81.67	81.67	1.72	species	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Bacteroidaceae; g__Prevotella; s__Prevotella sinensis
+SRR34514425	103.13	103.13	2.18	species	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Bacteroidaceae; g__Prevotella; s__Prevotella rara
+SRR34514425	126.54	126.54	2.67	species	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Bacteroidaceae; g__Prevotella; s__Prevotella copri_F
+SRR34514425	63.99	63.99	1.35	species	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Bacteroidaceae; g__Prevotella; s__Prevotella copri_V
+SRR34514425	25.22	25.22	0.53	species	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Bacteroidaceae; g__Paraprevotella; s__Paraprevotella clara
+SRR34514425	12.34	12.34	0.26	species	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Bacteroidaceae; g__Paraprevotella; s__Paraprevotella sp944321345
+SRR34514425	3.41	3.41	0.07	species	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Bacteroidaceae; g__Paraprevotella; s__Paraprevotella xylaniphila
+SRR34514425	6.83	6.83	0.14	species	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Bacteroidaceae; g__Paraprevotella; s__Paraprevotella sp905215575
+SRR34514425	9.33	9.33	0.2	species	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Tannerellaceae; g__Parabacteroides; s__Parabacteroides distasonis
+SRR34514425	14.06	14.06	0.3	species	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Tannerellaceae; g__Parabacteroides; s__Parabacteroides merdae
+SRR34514425	164.47	164.47	3.47	species	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Rikenellaceae; g__Alistipes; s__Alistipes putredinis
+SRR34514425	27.94	27.94	0.59	species	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Rikenellaceae; g__Alistipes; s__Alistipes shahii
+SRR34514425	3.39	3.39	0.07	species	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Rikenellaceae; g__Alistipes; s__Alistipes communis
+SRR34514425	333.08	333.08	7.03	species	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Rikenellaceae; g__Alistipes; s__Alistipes excrementigallinarum
+SRR34514425	4.61	4.61	0.1	species	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Rikenellaceae; g__Alistipes; s__Alistipes dispar
+SRR34514425	2.35	2.35	0.05	species	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Rikenellaceae; g__Alistipes; s__Alistipes senegalensis
+SRR34514425	2.56	2.56	0.05	species	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Rikenellaceae; g__Tidjanibacter; s__Tidjanibacter inops
+SRR34514425	1.29	1.29	0.03	species	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Rikenellaceae; g__Alistipes_A; s__Alistipes_A hominis
+SRR34514425	37.46	37.46	0.79	species	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Rikenellaceae; g__Alistipes_A; s__Alistipes_A sp900539755
+SRR34514425	17.87	17.87	0.38	species	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Marinifilaceae; g__Odoribacter; s__Odoribacter splanchnicus
+SRR34514425	1.15	1.15	0.02	species	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Marinifilaceae; g__Butyricimonas; s__Butyricimonas paravirosa
+SRR34514425	4.25	4.25	0.09	species	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Marinifilaceae; g__Butyricimonas; s__Butyricimonas faecihominis
+SRR34514425	3.93	3.93	0.08	species	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Marinifilaceae; g__Butyricimonas; s__Butyricimonas faecalis
+SRR34514425	2.66	2.66	0.06	species	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Barnesiellaceae; g__Barnesiella; s__Barnesiella intestinihominis
+SRR34514425	0.8	0.8	0.02	species	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Coprobacteraceae; g__Coprobacter; s__Coprobacter fastidiosus
+SRR34514425	13.45	13.45	0.28	species	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__UBA11471; g__Caccoplasma; s__Caccoplasma intestinavium
+SRR34514425	1.05	1.05	0.02	species	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Marinilabiliaceae; g__W3P20-009; s__W3P20-009 sp004552385
+SRR34514425	9.37	9.37	0.2	species	Root; d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Flavobacteriales; f__UBA1820; g__Merdimorpha; s__Merdimorpha sp002314265
+SRR34514425	119.44	119.44	2.52	species	Root; d__Bacteria; p__Verrucomicrobiota; c__Verrucomicrobiia; o__Verrucomicrobiales; f__Akkermansiaceae; g__Akkermansia; s__Akkermansia muciniphila
+SRR34514425	42.45	42.45	0.9	species	Root; d__Bacteria; p__Verrucomicrobiota; c__Verrucomicrobiia; o__Verrucomicrobiales; f__Akkermansiaceae; g__Akkermansia; s__Akkermansia muciniphila_A
+SRR34514425	5.68	5.68	0.12	species	Root; d__Bacteria; p__Verrucomicrobiota; c__Verrucomicrobiia; o__Opitutales; f__Intestinicryptomonadaceae; g__Merdousia; s__Merdousia sp001917305
+SRR34514425	1.51	1.51	0.03	species	Root; d__Bacteria; p__Verrucomicrobiota; c__Lentisphaeria; o__Victivallales; f__Victivallaceae; g__Victivallis; s__Victivallis lenta
+SRR34514425	14.61	14.61	0.31	species	Root; d__Bacteria; p__Verrucomicrobiota; c__Lentisphaeria; o__Victivallales; f__Victivallaceae; g__Victivallis; s__Victivallis sp900768515
+SRR34514425	3.65	3.65	0.08	species	Root; d__Bacteria; p__Verrucomicrobiota; c__Lentisphaeria; o__Victivallales; f__UBA1829; g__UBA11452; s__UBA11452 sp003526375
+SRR34514425	3.95	3.95	0.08	species	Root; d__Bacteria; p__Desulfobacterota; c__Desulfovibrionia; o__Desulfovibrionales; f__Desulfovibrionaceae; g__Bilophila; s__Bilophila sp959604115
+SRR34514425	23.3	23.3	0.49	species	Root; d__Bacteria; p__Desulfobacterota; c__Desulfovibrionia; o__Desulfovibrionales; f__Desulfovibrionaceae; g__Desulfovibrio; s__Desulfovibrio sp900556755
+SRR34514425	2.09	2.09	0.04	species	Root; d__Bacteria; p__Desulfobacterota; c__Desulfovibrionia; o__Desulfovibrionales; f__Desulfovibrionaceae; g__Desulfovibrio; s__Desulfovibrio piger
+SRR34514425	1.02	1.02	0.02	species	Root; d__Bacteria; p__Desulfobacterota; c__Desulfovibrionia; o__Desulfovibrionales; f__Desulfovibrionaceae; g__Mailhella; s__Mailhella excrementigallinarum
+SRR34514425	20.8	20.8	0.44	species	Root; d__Bacteria; p__Bacillota_I; c__Bacilli_A; o__Erysipelotrichales; f__Erysipelotrichaceae; g__Holdemanella; s__Holdemanella sp900556915
+SRR34514425	4.5	4.5	0.09	species	Root; d__Bacteria; p__Bacillota_I; c__Bacilli_A; o__Erysipelotrichales; f__Erysipelotrichaceae; g__Holdemanella; s__Holdemanella porci
+SRR34514425	6.25	6.25	0.13	species	Root; d__Bacteria; p__Bacillota_I; c__Bacilli_A; o__Erysipelotrichales; f__Erysipelotrichaceae; g__Holdemanella; s__Holdemanella sp003436425
+SRR34514425	8.07	8.07	0.17	species	Root; d__Bacteria; p__Bacillota_I; c__Bacilli_A; o__Erysipelotrichales; f__Coprobacillaceae; g__Catenibacterium; s__Catenibacterium mitsuoka_A
+SRR34514425	43.25	43.25	0.91	species	Root; d__Bacteria; p__Bacillota_I; c__Bacilli_A; o__Erysipelotrichales; f__Coprobacillaceae; g__Catenibacterium; s__Catenibacterium mitsuoka
+SRR34514425	29.77	29.77	0.63	species	Root; d__Bacteria; p__Bacillota_I; c__Bacilli_A; o__RF39; f__UBA660; g__CAG-582; s__CAG-582 sp000435515
+SRR34514425	4.9	4.9	0.1	species	Root; d__Bacteria; p__Bacillota_I; c__Bacilli_A; o__RF39; f__UBA660; g__CAG-582; s__CAG-582 sp934101115
+SRR34514425	17.61	17.61	0.37	species	Root; d__Bacteria; p__Bacillota_I; c__Bacilli_A; o__RF39; f__UBA660; g__CAG-302; s__CAG-302 sp000431795
+SRR34514425	115.48	115.48	2.44	species	Root; d__Bacteria; p__Bacillota_I; c__Bacilli_A; o__RF39; f__UBA660; g__CAG-533; s__CAG-533 sp000434495
+SRR34514425	7.25	7.25	0.15	species	Root; d__Bacteria; p__Bacillota_I; c__Bacilli_A; o__RF39; f__UBA660; g__CAG-533; s__CAG-533 sp934098515
+SRR34514425	50.23	50.23	1.06	species	Root; d__Bacteria; p__Bacillota_I; c__Bacilli_A; o__RF39; f__UBA660; g__Onthocola_B; s__Onthocola_B sp900544625
+SRR34514425	12.11	12.11	0.26	species	Root; d__Bacteria; p__Bacillota_I; c__Bacilli_A; o__RF39; f__UBA660; g__Onthocola_B; s__Onthocola_B sp000437355
+SRR34514425	13.27	13.27	0.28	species	Root; d__Bacteria; p__Bacillota_I; c__Bacilli_A; o__RF39; f__UBA660; g__Onthocola_B; s__Onthocola_B sp000438075
+SRR34514425	10.16	10.16	0.21	species	Root; d__Bacteria; p__Bacillota_I; c__Bacilli_A; o__RF39; f__UBA660; g__CAG-433; s__CAG-433 sp900546245
+SRR34514425	2.36	2.36	0.05	species	Root; d__Bacteria; p__Bacillota_I; c__Bacilli_A; o__RF39; f__UBA660; g__CAG-433; s__CAG-433 sp000433675
+SRR34514425	3.07	3.07	0.06	species	Root; d__Bacteria; p__Bacillota_I; c__Bacilli_A; o__RF39; f__UBA660; g__CAG-433; s__CAG-433 sp019423565
+SRR34514425	14.18	14.18	0.3	species	Root; d__Bacteria; p__Bacillota_I; c__Bacilli_A; o__RF39; f__UBA660; g__CAG-611; s__CAG-611 sp000434175
+SRR34514425	11.74	11.74	0.25	species	Root; d__Bacteria; p__Bacillota_I; c__Bacilli_A; o__RF39; f__UBA660; g__CAG-1193; s__CAG-1193 sp900550145
+SRR34514425	2.04	2.04	0.04	species	Root; d__Bacteria; p__Bacillota_I; c__Bacilli_A; o__RF39; f__UBA660; g__Caccenecus; s__Caccenecus sp900758895
+SRR34514425	115.86	115.86	2.45	species	Root; d__Bacteria; p__Bacillota_I; c__Bacilli_A; o__RF39; f__UBA660; g__CAG-877; s__CAG-877 sp934157235
+SRR34514425	2.18	2.18	0.05	species	Root; d__Bacteria; p__Bacillota_I; c__Bacilli_A; o__RF39; f__UBA660; g__JAEDJI01; s__JAEDJI01 sp934101185
+SRR34514425	9.52	9.52	0.2	species	Root; d__Bacteria; p__Bacillota_I; c__Bacilli_A; o__RFN20; f__CAG-631; g__Caccosoma; s__Caccosoma faecigallinarum
+SRR34514425	2.32	2.32	0.05	species	Root; d__Bacteria; p__Bacillota_I; c__Bacilli_A; o__RFN20; f__CAG-449; g__CAG-449; s__CAG-449 sp000432895
+SRR34514425	24.35	24.35	0.51	species	Root; d__Bacteria; p__Bacillota_I; c__Bacilli_A; o__ML615J-28; f__CAG-313; g__CAG-313; s__CAG-313 sp000433035
+SRR34514425	12.28	12.28	0.26	species	Root; d__Bacteria; p__Cyanobacteriota; c__Vampirovibrionia; o__Gastranaerophilales; f__Gastranaerophilaceae; g__CAG-196; s__CAG-196 sp002102975
+SRR34514425	7.96	7.96	0.17	species	Root; d__Bacteria; p__Cyanobacteriota; c__Vampirovibrionia; o__Gastranaerophilales; f__Gastranaerophilaceae; g__Scatenecus; s__Scatenecus faecavium
+SRR34514425	14.51	14.51	0.31	species	Root; d__Archaea; p__Methanobacteriota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanocatella; s__Methanocatella smithii
+SRR34514425	5.19	5.19	0.11	species	Root; d__Archaea; p__Methanobacteriota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanosphaera; s__Methanosphaera stadtmanae

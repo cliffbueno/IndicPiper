@@ -1,0 +1,25 @@
+[workspace]
+authors = ["Ben Woodcroft <benjwoodcroft@gmail.com>"]
+channels = ["conda-forge", "bioconda"]
+name = "IndicPiper"
+platforms = ["linux-64", "osx-64", "osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+# Generate small mock input data (metadata + genus tables) used by the tests
+mock-data = "Rscript tests/generate_mock_data.R"
+# Run the full test suite against the mock data. Depends on mock-data.
+test = { cmd = "Rscript tests/run_tests.R", depends-on = ["mock-data"] }
+
+[dependencies]
+r-base = ">=4.3"
+r-tidyr = "*"
+r-dplyr = "*"
+r-tibble = "*"
+r-permute = "*"
+r-indicspecies = "*"
+r-ggplot2 = "*"
+"r-data.table" = "*"
+r-rlang = "*"
+"r-r.utils" = "*"
+r-reshape2 = "*"

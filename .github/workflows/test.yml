@@ -1,0 +1,25 @@
+name: tests
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up pixi
+        uses: prefix-dev/setup-pixi@v0.8.1
+        with:
+          # Use the committed pixi.lock for reproducible installs.
+          locked: true
+          cache: true
+
+      - name: Run IndicPiper tests on mock data
+        # `test` generates the mock data (via its mock-data dependency) and then
+        # runs the full suite against the four IndicPiper functions.
+        run: pixi run test

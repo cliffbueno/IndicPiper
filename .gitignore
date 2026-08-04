@@ -1,0 +1,6 @@
+# pixi environments
+.pixi/*
+!.pixi/config.toml
+
+# Test artifacts (mock inputs + generated outputs)
+tests/tmp/
