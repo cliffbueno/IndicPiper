@@ -1,6 +1,6 @@
 # Test runIndicPiper()
 
-setwd("/scratch/alpine/clbd1748/IndicPiper/")
+setwd("/scratch/alpine/clbd1748/IndicPiperv2.1/")
 
 source("IndicPiper.R")
 
@@ -47,4 +47,4 @@ runIndicPiper(meta = "myMetadataTable.csv.gz",
               p_cut = 0.01, # multipatt mean Pfdr cutoff
               IndVal_cut = 0.5,  # multipatt mean IndVal cutoff
               seed = 1, # seed for reproducibility
-              output = "genus_habitat_indicators_v2.csv") # output file name
+              output = "genus_habitat_indicators_v2.1.0.csv") # output file name

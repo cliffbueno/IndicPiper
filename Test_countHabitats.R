@@ -1,6 +1,6 @@
 # Test countHabitats()
 
-setwd("/scratch/alpine/clbd1748/IndicPiper")
+setwd("/scratch/alpine/clbd1748/IndicPiperv2.1/")
 
 source("IndicPiper.R")
 
@@ -37,4 +37,4 @@ for (pkg in required_packages) {
 
 message("All packages loaded successfully.")
 
-countHabitats(meta = "Sandpiper_Metadata_Filt_n451568.txt")
+countHabitats(meta = "Sandpiper_Metadata_Filt_n426084.txt")

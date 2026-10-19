@@ -1,6 +1,6 @@
 # Test checkIndicPiper
 
-setwd("/scratch/alpine/clbd1748/IndicPiper/")
+setwd("/scratch/alpine/clbd1748/IndicPiperv2.1/")
 
 source("IndicPiper.R")
 
@@ -45,7 +45,7 @@ custom_order = c("phyllosphere", "soil", "freshwater sediment", "freshwater wate
 checkIndicPiper(meta = "meta_test.csv",
                 genus = "genus_test.csv",
                 ind = "genus_habitat_indicators_v2.csv",
-                output = "Figure2.pdf",
+                ouput = "Figure2.pdf",
                 ncol = 2,
                 keep_unassigned = FALSE,
                 keep_nonindicator = TRUE,

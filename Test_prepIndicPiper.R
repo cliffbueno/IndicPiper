@@ -1,6 +1,6 @@
 # Test prepIndicPiper()
 
-setwd("/scratch/alpine/clbd1748/IndicPiper/")
+setwd("/scratch/alpine/clbd1748/IndicPiperv2.1")
 
 source("IndicPiper.R")
 
@@ -41,7 +41,7 @@ message("All packages loaded successfully.")
 habitat_list <- c("mammalian gut", "soil", "wastewater", "human oral", "human skin",
                   "seawater", "freshwater sediment", "freshwater water",
                   "marine sediment", "human vaginal", "hydrothermal vent",
-                  "phyllosphere", "glacier", "peat", "groundwater")
+                  "phyllosphere", "glacier")
 
 prepIndicPiper(habitat_list = habitat_list,
                combine_soil_rhizo = TRUE,

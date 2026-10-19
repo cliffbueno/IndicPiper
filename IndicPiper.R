@@ -1,15 +1,16 @@
 # IndicPiper Main Functions and Support Functions
 
 # First, download the 2 starting files from Zenodo
-# Sandpiper_Metadata_Filt_n451568.txt
-# Sandpiper_Genus_Filt_n451568.csv.gz
+
+# Sandpiper_Metadata_Filt_n426084.txt
+# Sandpiper_Genus_Filt_n426084.csv.gz
 
 # Put them in your working directory
 
 
 
 #### countHabitats ####
-countHabitats <- function(meta = "Sandpiper_Metadata_Filt_n451568.txt") {
+countHabitats <- function(meta = "Sandpiper_Metadata_Filt_n26084.txt") {
   logtime("Starting countHabitats()")
   
   # Load libraries
@@ -50,8 +51,11 @@ prepIndicPiper <- function(habitat_list,
   logtime("Libraries loaded")
   
   # Load metadata
-  meta <- read.delim("Sandpiper_Metadata_Filt_n451568.txt", stringsAsFactors = FALSE)
+  meta <- read.delim("Sandpiper_Metadata_Filt_n426084.txt", stringsAsFactors = FALSE)
   logtime("Metadata table loaded")
+  cat("First few samples:\n")
+  print(head(meta$sample))
+  flush.console()
   
   # Change marine to seawater
   meta <- meta %>%
@@ -67,19 +71,27 @@ prepIndicPiper <- function(habitat_list,
   logtime("Habitats counted")
   
   # Load genus table
-  genus <- fread("Sandpiper_Genus_Filt_n451568.csv.gz", showProgress = TRUE, nThread = 2)
+  genus <- fread("Sandpiper_Genus_Filt_n426084.csv.gz", showProgress = TRUE, nThread = 4)
   logtime("Raw genus table loaded")
+  
   # Move taxonomy column to rownames
   rownames(genus) <- genus[[1]]
   genus[[1]] <- NULL
+  cat("First few rownames:\n")
+  print(head(rownames(genus)))
+  flush.console()
   logtime("Taxonomy column converted to rownames")
+  cat("First few colnames:\n")
+  print(head(colnames(genus)))
   
   # Transpose genus table
   logtime("Starting transpose")
   genus_table_t <- transpose(genus)
   rownames(genus_table_t) <- colnames(genus)
   colnames(genus_table_t) <- rownames(genus)
-  sum(meta$sample != rownames(genus_table_t))
+  cat("n samples not in genus_table_t:\n")
+  print(sum(meta$sample %notin% rownames(genus_table_t)))
+  flush.console()
   rm(genus)
   logtime("Transpose complete")
   
@@ -123,8 +135,13 @@ prepIndicPiper <- function(habitat_list,
   flush.console()
   
   # Filter genus table to samples
+  cat("Number of samples in genus_table_t:\n")
+  print(sum(rownames(genus_table_t) %in% meta$sample))
+  flush.console()
   genus_table_t <- genus_table_t %>% 
     filter(rownames(.) %in% meta$sample)
+  cat("nrows genus_table_t:\n")
+  print(nrow(genus_table_t))
   if (sum(meta$sample != rownames(genus_table_t)) > 0) { 
     stop("Metadata table and genus table sample order do not match.") } 
   logtime("Genus table filtered to habitats of interest")
@@ -153,9 +170,9 @@ prepIndicPiper <- function(habitat_list,
     mutate(Habitat = gsub("seawater", "marine water", Habitat))
   logtime("Changed 'seawater' to 'marine water'")
   logtime("Starting file writes")
-  fwrite(meta, "myMetadataTable.csv.gz", compress = "gzip", nThread = 2, row.names = FALSE)
+  fwrite(meta, "myMetadataTable.csv.gz", compress = "gzip", nThread = 4, row.names = FALSE)
   genus_table_t$sampleID <- rownames(genus_table_t)
-  fwrite(genus_table_t, "myGenusTable.csv.gz", compress = "gzip", nThread = 2, row.names = FALSE)
+  fwrite(genus_table_t, "myGenusTable.csv.gz", compress = "gzip", nThread = 4, row.names = FALSE)
   logtime("Metadata table and genus table saved")
   
   # Final habitat counts
@@ -178,7 +195,7 @@ runIndicPiper <- function(meta = "myMetadataTable.csv.gz",
                           genus = "myGenusTable.csv.gz",
                           n_multipatt_perm = 100, # number of iterations within the multipatt function
                           n_runs = 100, # number of times you want to subsample habitats and run multipatt
-                          n_per_habitat = 250, # sample size per habitat per run. samples randomly selected
+                          n_per_habitat = 225, # sample size per habitat per run. samples randomly selected
                           run_cut = 100, # multipatt mean % runs cutoff
                           p_cut = 0.01, # multipatt mean Pfdr cutoff
                           IndVal_cut = 0.5,  # multipatt mean IndVal cutoff
@@ -193,12 +210,13 @@ runIndicPiper <- function(meta = "myMetadataTable.csv.gz",
   suppressMessages(library(tibble))
   suppressMessages(library(data.table))
   suppressMessages(library(indicspecies))
+  suppressMessages(library(FSA))
   logtime("Libraries loaded")
   
   # Import data produced by prepIndicPiper.R
-  meta <- fread(meta, showProgress = TRUE, nThread = 2)
+  meta <- fread(meta, showProgress = TRUE, nThread = 4)
   n_habitats <- length(levels(as.factor(meta$Habitat)))
-  genus_table_t_start <- fread(genus, showProgress = TRUE, nThread = 16) %>%
+  genus_table_t_start <- fread(genus, showProgress = TRUE, nThread = 4) %>%
     column_to_rownames(var = "sampleID")
   if (sum(meta$sample != rownames(genus_table_t_start)) > 0) { 
     stop("Metadata table and genus table sample order do not match.") } 
@@ -264,8 +282,12 @@ runIndicPiper <- function(meta = "myMetadataTable.csv.gz",
   for (i in 2:n_runs) {
     comb <- rbind(comb, s[[i]])
   }
+  write.csv(comb, "combined_multipatt_output.csv", row.names = FALSE)
+  logtime("Multipatt outputs combined and saved to combined_multipatt_output.csv")
   taxonomy_counts <- as.data.frame(table(comb$Taxonomy)) %>%
     mutate(Perc = Freq / n_runs * 100)
+  write.csv(taxonomy_counts, "taxonomy_counts.csv", row.names = FALSE)
+  logtime("Taxonomy counts calculated and saved to taxonomy_counts.csv")
   tax100 <- taxonomy_counts %>%
     filter(Perc == 100)
   result <- comb %>%
@@ -279,11 +301,11 @@ runIndicPiper <- function(meta = "myMetadataTable.csv.gz",
     left_join(., comb, by = c("Taxonomy", "Habitat")) %>%
     group_by(Taxonomy, Habitat, PercRunsInd) %>%
     summarise(IndVal_mean = mean(IndVal),
-              IndVal_se = se(IndVal),
+              IndVal_sd = sd(IndVal),
               IndVal_min = min(IndVal),
               IndVal_max = max(IndVal),
               PVal_mean = mean(p.value),
-              PVal_se = se(p.value),
+              PVal_sd = sd(p.value),
               PVal_min = min(p.value),
               PVal_max = max(p.value),
               .groups = "drop") %>%
@@ -440,31 +462,85 @@ checkIndicPiper <- function(meta = "meta_test.csv",
 
 #### Support Functions ####
 # Support functions
-se <- function(x, na.rm = FALSE) {
-  if (na.rm) {
-    x <- x[!is.na(x)]
-  }
-  stats::sd(x) / sqrt(sum(!is.na(x)))
-}
-
+`%notin%` <- Negate(`%in%`)
 logtime <- function(msg) cat(sprintf("[%s] %s\n", format(Sys.time(), "%Y-%m-%d %H:%M:%S"), msg))
 
-make_subsamples <- function(df, n_runs = 100, n_per_habitat = 215, seed = 1){
+make_subsamples <- function(df, n_runs = 100, n_per_habitat = 225, seed = 1) {
   set.seed(seed)
-  split_ids <- split(df$sample, df$Habitat)
-  res <- vector("list", n_runs)
-  for(i in seq_len(n_runs)) res[[i]] <- data.frame(sample=character(),Habitat=character(),stringsAsFactors=FALSE)
-  for(h in names(split_ids)){
-    ids <- sample(split_ids[[h]])
-    N <- length(ids); needed <- n_runs*n_per_habitat
-    if(N < needed) ids <- rep(ids, length.out=needed)
-    for(i in seq_len(n_runs)){
-      idx <- ((i-1)*n_per_habitat+1):(i*n_per_habitat)
-      res[[i]] <- rbind(res[[i]], data.frame(sample=ids[idx],Habitat=h,stringsAsFactors=FALSE))
+  
+  habitats <- unique(df$Habitat)
+  res      <- vector("list", n_runs)
+  for (i in seq_len(n_runs))
+    res[[i]] <- data.frame(sample = character(), Habitat = character(),
+                           stringsAsFactors = FALSE)
+  
+  rep_counts_by_habitat <- list()
+  
+  for (h in habitats) {
+    sub     <- df[df$Habitat == h, ]
+    ids     <- sub$sample
+    studies <- ifelse(is.na(sub$study_accession) | sub$study_accession == "",
+                      "__unknown__", as.character(sub$study_accession))
+    N       <- length(ids)
+    
+    run_samples <- vector("list", n_runs)
+    
+    # pool of available indices, refilled each time it runs low
+    available <- integer(0)
+    
+    for (i in seq_len(n_runs)) {
+      # if fewer than n_per_habitat left in pool, reshuffle all and append
+      if (length(available) < n_per_habitat) {
+        available <- c(available, sample(N))
+      }
+      
+      # take the next n_per_habitat indices from the pool
+      chosen   <- available[seq_len(n_per_habitat)]
+      available <- available[-seq_len(n_per_habitat)]
+      
+      # if duplicates exist in chosen (can happen at pool boundary), replace them
+      while (any(duplicated(chosen))) {
+        dup_pos     <- which(duplicated(chosen))
+        not_chosen  <- setdiff(seq_len(N), chosen)
+        # if not enough unique replacements, just take what we can
+        replacements <- sample(not_chosen, min(length(dup_pos), length(not_chosen)))
+        chosen[dup_pos[seq_along(replacements)]] <- replacements
+      }
+      
+      run_samples[[i]] <- ids[chosen]
+    }
+    
+    rep_counts_by_habitat[[h]] <- table(factor(unlist(run_samples), levels = ids))
+    
+    for (i in seq_len(n_runs)) {
+      res[[i]] <- rbind(res[[i]],
+                        data.frame(sample  = run_samples[[i]],
+                                   Habitat = h,
+                                   stringsAsFactors = FALSE))
     }
   }
+  
+  # repetition metrics
+  rep_metrics <- do.call(rbind, lapply(habitats, function(h) {
+    counts <- as.integer(rep_counts_by_habitat[[h]])
+    counts <- counts[counts > 0]
+    data.frame(
+      Habitat      = h,
+      n_samples    = nrow(df[df$Habitat == h, ]),
+      n_used       = sum(counts > 0),
+      mean_uses    = round(mean(counts), 3),
+      median_uses  = median(counts),
+      max_uses     = max(counts),
+      pct_used_gt1 = round(100 * mean(counts > 1), 1),
+      stringsAsFactors = FALSE
+    )
+  }))
+  
+  write.csv(rep_metrics, "repetition_metrics.csv", row.names = FALSE)
+  
   res
 }
+
 
 # 2 functions from the mctoolsr package (Leff et al. 2017)
 summarize_taxonomy = function(input, level, relative = TRUE,
