@@ -19,8 +19,8 @@ test_dir <- Sys.getenv("INDICPIPER_TEST_DIR",
                        unset = file.path(repo_root, "tests", "tmp"))
 test_dir <- normalizePath(test_dir, mustWork = FALSE)
 
-meta_file  <- file.path(test_dir, "Sandpiper_Metadata_Filt_n451568.txt")
-genus_file <- file.path(test_dir, "Sandpiper_Genus_Filt_n451568.csv.gz")
+meta_file  <- file.path(test_dir, "Sandpiper_Metadata_Filt_n426084.txt")
+genus_file <- file.path(test_dir, "Sandpiper_Genus_Filt_n426084.csv.gz")
 if (!file.exists(meta_file) || !file.exists(genus_file)) {
   stop("Mock data not found. Run tests/generate_mock_data.R first ",
        "(or `pixi run mock-data`).")
