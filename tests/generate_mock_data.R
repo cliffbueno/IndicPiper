@@ -1,13 +1,13 @@
 # Generate small mock input data for the IndicPiper test suite.
 #
 # The real IndicPiper inputs live on Zenodo and are enormous (hundreds of
-# thousands of samples, needing ~275 Gb RAM to process). For automated testing
+# thousands of samples, needing ~317 Gb RAM to process). For automated testing
 # we instead synthesise a tiny dataset with the same *structure* so the four
 # IndicPiper functions can be exercised end-to-end in seconds.
 #
 # Two files are produced, with the exact names prepIndicPiper() expects:
-#   Sandpiper_Metadata_Filt_n451568.txt   - tab-delimited, cols: sample, Habitat
-#   Sandpiper_Genus_Filt_n451568.csv.gz   - CSV, first col "taxonomy" (6-level
+#   Sandpiper_Metadata_Filt_n426084.txt   - tab-delimited, cols: sample, Habitat
+#   Sandpiper_Genus_Filt_n426084.csv.gz   - CSV, first col "taxonomy" (6-level
 #                                            GTDB string), then one column per
 #                                            sample of % relative abundances.
 #
@@ -25,8 +25,8 @@ set.seed(42)
 out_dir <- Sys.getenv("INDICPIPER_TEST_DIR", unset = "tests/tmp")
 dir.create(out_dir, showWarnings = FALSE, recursive = TRUE)
 
-meta_file  <- file.path(out_dir, "Sandpiper_Metadata_Filt_n451568.txt")
-genus_file <- file.path(out_dir, "Sandpiper_Genus_Filt_n451568.csv.gz")
+meta_file  <- file.path(out_dir, "Sandpiper_Metadata_Filt_n426084.txt")
+genus_file <- file.path(out_dir, "Sandpiper_Genus_Filt_n426084.csv.gz")
 
 # ---- Metadata ------------------------------------------------------------
 # Four final habitats. We deliberately include the "rhizosphere" and
