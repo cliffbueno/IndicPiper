@@ -1,9 +1,9 @@
 # IndicPiper
 IndicPiper: microbial indicator taxa analysis using Sandpiper and multipatt
 
-This repo contains the IndicPiper database made by Cliff Bueno de Mesquita based on 13 habitats, using 100 runs, 250 random samples per habitat per run, and cutoffs of indicator in 100% of runs, mean p-value < 0.01, and mean IndVal > 0.5. For many cases, you can just use this database for your projects. Whether you have metagenomes or 16S sequencing, just use GTDB taxonomy and perform exact name matching at the genus level. IndicPiper v2 uses GTDB r232 taxonomy. For GTDB r226 taxonomy, use IndicPiper v1 (see releases). Then, for example, you can aggregate relative abundances by indicator habitat, and perform statistics and plotting. 
+This repo contains the IndicPiper database made by Cliff Bueno de Mesquita based on 13 habitats, using 100 runs, 250 random samples per habitat per run, and cutoffs of indicator in 100% of runs, mean p-value < 0.01, and mean IndVal > 0.5. For many cases, you can just use this database for your projects. Whether you have shotgun metagenomes or 16S rRNA gene sequencing, just use GTDB taxonomy and perform exact name matching at the genus level. IndicPiper v2.1.0 uses GTDB r232 taxonomy. For older studies with GTDB r226 taxonomy, use IndicPiper v1.0.0 (see releases). Then, for example, you can aggregate relative abundances by indicator habitat, and perform statistics and plotting. 
 
-The pre-built database is distributed as part of this repository rather than via Zenodo. It is committed as `genus_habitat_indicators_v2.csv` (GTDB r232 taxonomy) and `genus_habitat_indicators_v1.csv` (GTDB r226 taxonomy, see the `v1.0.0` release/tag). Cloning the repository or downloading a release ZIP as described in [Installation](#installation) gives you these files directly at the top level of the repo.
+The pre-built database is distributed as part of this repository and via Zenodo. It is committed as `genus_habitat_indicators_v2.1.0.csv` (GTDB r232 taxonomy) and `genus_habitat_indicators_v1.0.0.csv` (GTDB r226 taxonomy, see the `v1.0.0` release/tag). Cloning the repository or downloading a release ZIP as described in [Installation](#installation) gives you these files directly at the top level of the repo.
 
 For example, `Example_PlotSandpiperSample.R` takes a GTDB genus-level taxonomic profile for sample SRR34514425 — a human gut metagenome from (Fernandes et al. 2026) — exact-matches its genera against `genus_habitat_indicators_v2.csv`, aggregates relative abundance by indicator habitat, and plots the result. The profile is committed to this repo as `SRR34514425_condensed.tsv` so the example doesn't depend on the Sandpiper API; it was obtained with:
 
@@ -49,7 +49,7 @@ which produces:
 
 ![Relative abundance of SRR34514425 by IndicPiper indicator habitat](img/SRR34514425_habitat_abundance.png)
 
-There are also functions (in IndicPiper.R) to generate your own database based on habitats of interest or different parameters. The starting metadata and taxaonomic profile files are available on Zenodo (https://zenodo.org/records/20855888), and these were generated with GenerateStartingPoint.R. You can then supply the functions with your habitats of interest and cutoffs you want to use. We recommend not going any less stringent than the cutoffs we used, but you could potentially try more stringent cutoffs to get only the strongest associations. We also recommend focusing on habitats that have good sample sizes (ideally in the hundreds of samples). We have removed habitats with < 50 samples.  
+There are also functions (in IndicPiper.R) to generate your own database based on habitats of interest or different parameters. The starting metadata and taxaonomic profile files are available on Zenodo (https://zenodo.org/records/23424117), and these were generated with filterSandpiper.R. You can then supply the functions with your habitats of interest and cutoffs you want to use. We recommend not going any less stringent than the cutoffs we used, but you could potentially try more stringent cutoffs to get only the strongest associations. We also recommend focusing on habitats that have good sample sizes (ideally in the hundreds of samples). We have removed habitats with < 52 samples after filtering.   
 
 There is also a function to generate a diagnostic plot (`checkIndicPiper()`) so you can see to what relative abundance the indicator taxa sum to in the target habitat as well as how much they spill over into other habitats.
 
@@ -84,16 +84,16 @@ pixi shell     # drop into a shell with R and all packages available, then run R
 
 You will also need the two starting input files, which can be downloaded from Zenodo:
 
-https://zenodo.org/records/20855888
+https://zenodo.org/records/23424117
 
 or from the command line using:
 
 ```bash
-wget "https://zenodo.org/records/20855888/files/Sandpiper_Genus_Filt_n451568.csv.gz?download=1" \
-  -O Sandpiper_Genus_Filt_n451568.csv.gz
+wget "https://zenodo.org/records/23424117/files/Sandpiper_Genus_Filt_n426084.csv.gz?download=1" \
+  -O Sandpiper_Genus_Filt_n426084.csv.gz
 
-wget "https://zenodo.org/records/20855888/files/Sandpiper_Metadata_Filt_n451568.txt?download=1" \
-  -O Sandpiper_Metadata_Filt_n451568.txt
+wget "https://zenodo.org/records/23424117/files/Sandpiper_Metadata_Filt_n426084.txt?download=1" \
+  -O Sandpiper_Metadata_Filt_n426084.txt
 ```
 
 ## Usage
@@ -103,8 +103,8 @@ To use the provided database, generate GTDB taxonomic abundance profiles from me
 
 You can also generate your own database (for example, if you need a habitat not in the 13 provided).
 
-To do a custom run of IndicPiper, download the two input files from Zenodo https://zenodo.org/records/20855888.
-Then load all of the functions with source(IndicPiper.R). You could then use the functions interactively on RStudio Server, or make an .R script in which you set the working directory, run source(IndicPiper.R), and then run one of the functions, providing your arguments. Such a file could then be run in the terminal with Rscript YourFile.R. For examples of each function, I have provided 4 "Test" scripts, which demonstrate this. I've also provided some example slurm scripts for how I ran this on the University of Colorado supercomputer; those would have to be updated according to your computer. Note that due to the large file sizes, 275 Gb RAM is needed for prepIndicPiper(). Less RAM is needed for runIndicPiper(). For example, for the 13 habitats I made the database for, 192 Gb RAM were needed.
+To do a custom run of IndicPiper, download the two input files from Zenodo https://zenodo.org/records/23424117.
+Then load all of the functions with source(IndicPiper.R). You could then use the functions interactively on RStudio Server, or make an R script (.R file) in which you set the working directory, run source(IndicPiper.R), and then run one of the functions, providing your arguments. Such a file could then be run in the terminal with Rscript YourFile.R. For examples of each function, I have provided 4 "Test" scripts, which demonstrate this. Note that due to the large file sizes, 317 Gb RAM is needed for prepIndicPiper(). Less RAM is needed for runIndicPiper(). For example, for the 13 habitats I made the database for, 184 Gb RAM were needed.
 IndicPiper has 4 main functions:\
   `countHabitats()`\
   `prepIndicPiper()`\
@@ -116,7 +116,7 @@ IndicPiper has 4 main functions:\
    Arguments:
 
    - `meta`: the metadata file path.  
-     Default = `"Sandpiper_Metadata_Filt_n451568.txt"`
+     Default = `"Sandpiper_Metadata_Filt_n426084.txt"`
 
 2. Use the `prepIndicPiper()` function to filter the metadata table and genus relative abundance table to your habitats of interest and optionally combine certain habitats. The combine arguments won't affect you if you aren't using those habitats. Don't combine if you need a specific habitat that is otherwise combined by default.
 
@@ -139,7 +139,7 @@ IndicPiper has 4 main functions:\
    - `combine_saliva_oral`: TRUE/FALSE.  
      Default = `TRUE`
 
-3. Use the `runIndicPiper()` function to perform the random subsetting, multipatt analysis, and merging/filtering of multipatt output tables. This builds an output table with genera and their indicator habitats, as well as information about the strength of the association.
+3. Use the `runIndicPiper()` function to perform the random subsetting stratified by study accession, multipatt analysis, and merging/filtering of multipatt output tables. This builds an output table with genera and their indicator habitats, as well as information about the strength of the association.
 
    Arguments:
 
@@ -195,11 +195,11 @@ IndicPiper has 4 main functions:\
    - `keep_nonindicator`: whether to keep the **Non-indicator** facet.  
      Default = `TRUE`
 
-   - `custom_order`: a custom order for the facets. Supply a character vector of habitat names in the desired order.  
+   - `custom_order`: a custom order for the facets. Supply a character vector of habitat names in the desired order. Note: If `keep_nonindicator` or `keep_unassigned` = `TRUE`, then make sure to add "non-indicator" or "unassigned" accordingly as part of your custom order.   
      Default = `NULL`
 
 ## Testing
-A test suite exercises all four IndicPiper functions end-to-end. Because the real Zenodo inputs are very large (hundreds of thousands of samples, needing ~275 Gb RAM), the tests instead run against a small synthetic dataset generated on the fly, so the whole suite finishes in seconds.
+A test suite exercises all four IndicPiper functions end-to-end. Because the real Zenodo inputs are very large (hundreds of thousands of samples, needing ~317 Gb RAM), the tests instead run against a small synthetic dataset generated on the fly, so the whole suite finishes in seconds.
 
 The R dependencies are managed with [pixi](https://pixi.sh). To run the tests locally:
 
@@ -210,10 +210,10 @@ pixi run test
 This generates the mock data (`tests/generate_mock_data.R`) and then runs the test suite (`tests/run_tests.R`). The tests also run automatically on every push and pull request via GitHub Actions (see `.github/workflows/test.yml`).
 
 ## Resources
-We recommend running IndicPiper on a server or supercomputer due to the size of the databases and the heavy computation needed to run all of the iterations of multipatt on the large input tables. IndicPiper v2 was developed on a supercomputer with 275 Gb RAM. `countHabitats` took 1 minute. `prepIndicPiper` took 44 minutes with 20 cores. `runIndicPiper` took 7 hours with 16 cores for 100 runs. `checkIndicPiper` took 22 seconds.
+We recommend running IndicPiper on a server or supercomputer due to the size of the databases and the heavy computation needed to run all of the iterations of multipatt on the large input tables. IndicPiper v2.1.0 was developed on a supercomputer with 317 Gb RAM. `countHabitats` took 30 seconds with 1 core. `prepIndicPiper` took 1 hour with 28 cores. `runIndicPiper` took 8.25 hours with 20 cores for 100 runs. `checkIndicPiper` took 46 seconds with 1 core.
 
 ## References
-IndicPiper will be described in a forthcoming publication. If you need to cite IndicPiper before the paper is out, please cite this GitHub repository. Please also mention that IndicPiper relies on the Sandpiper database and cite the Sandpiper/SingleM paper too (Woodcroft et al. 2025). We also suggest citing the paper associated with the `multipatt()` R function used by IndicPiper (De Cáceres and Legendre, 2009). Lastly, if you use `checkIndicPiper()`, it uses functions from Jonathan Leff's mctoolsr package (Leff, 2022).
+IndicPiper will be described in a forthcoming publication in ISME Communications. If you need to cite IndicPiper before the paper is out, please cite this GitHub repository. Please also mention that IndicPiper relies on the Sandpiper database and cite the Sandpiper/SingleM paper too (Woodcroft et al. 2025). We also suggest citing the paper associated with the `multipatt()` R function used by IndicPiper (De Cáceres and Legendre, 2009). Lastly, if you use `checkIndicPiper()`, it uses functions from Jonathan Leff's mctoolsr package (Leff, 2022).
 
 De Cáceres, M. and Legendre, P. (2009), Associations between species and groups of sites: indices and statistical inference. *Ecology*, 90: 3566–3574. https://doi.org/10.1890/08-1823.1
 
