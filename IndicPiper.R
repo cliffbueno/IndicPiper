@@ -210,7 +210,6 @@ runIndicPiper <- function(meta = "myMetadataTable.csv.gz",
   suppressMessages(library(tibble))
   suppressMessages(library(data.table))
   suppressMessages(library(indicspecies))
-  suppressMessages(library(FSA))
   logtime("Libraries loaded")
   
   # Import data produced by prepIndicPiper.R
